@@ -1,0 +1,50 @@
+{
+  "title":"energía",
+  "text-con":"Conferencia Informativa",
+  "bgColorDividerDate":"#BFAF9D" ,
+  "bgColorButtonDate":"#FFD074",
+  "bgColorDate":"#7D6247",
+  "lineColorCursos":"#7E6247",
+  "bgColorCursos":"#BFAF9D",
+  "lineColorPasos":"#FFD172 ",
+  "bgColorPasos":"#7D6247",
+  "colorIcon":"energy",
+  "date":"16",
+  "month":"setiembre",
+  "dateText":"Conferencia ",
+  "dateTextSecond" : "Informativa",
+  "buttonText":"Mira aquí el video",
+  "titleCurso":"Cursos del Certificado de Especialización en Gestión de la Energía",
+  "cursos":[
+    
+    {
+      "img2" : "none",
+      "section": "Energía",
+      "curso": "Biocombustibles y energías alternativas. Los combustibles fósiles deciden reinventarse",
+      "teacher": "Victor Fernández Guzmán",
+      "horario": "Viernes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/energia/biocombustibles-y-energias-alternativas-los-combustibles-fosiles-deciden-reinventarse/"
+    },
+    {
+      "img2" : "none",
+      "section": "Energía",
+      "curso": "Gestión de sistemas de compensación y retribución total en empresas del sector minería y energía",
+      "teacher": "Martín Vergara Pinto",
+      "horario": "Miércoles de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/mineria/gestion-de-sistemas-de-compensacion-y-retribucion-total-en-empresas-del-sector-mineria-y-energia/"
+    },
+    {
+      "img2" : "none",
+      "section": "Energía",
+      "curso": "Planificación energética",
+      "teacher": "Luis Espinoza Quiñonez",
+      "horario": "Sábados de 9:30 a.m. a 12:45 p.m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/energia/planificacion-energetica/"
+    }
+  ],
+  "titlePasos":"Del 07 de junio al 07 de agosto de 2021 ",
+  "calendatioText":"Informes@esan.edu.pe Alonso de Molina 1652,Monterrico, Surco",
+  "informesText":"Descarga el folleto del programa (pdf)",
+  "folletoText":"folleto",
+  "admisionText":"Postula"
+}

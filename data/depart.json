@@ -1,0 +1,76 @@
+{
+  "departamentos": [
+    {
+      "departamento": "AMAZONAS"
+    },
+    {
+      "departamento": "ÁNCASH"
+    },
+    {
+      "departamento": "APURÍMAC"
+    },
+    {
+      "departamento": "AREQUIPA"
+    },
+    {
+      "departamento": "AYACUCHO"
+    },
+    {
+      "departamento": "CAJAMARCA"
+    },
+    {
+      "departamento": "CUSCO"
+    },
+    {
+      "departamento": "HUANCAVELICA"
+    },
+    {
+      "departamento": "HUÁNUCO"
+    },
+    {
+      "departamento": "ICA"
+    },
+    {
+      "departamento": "JUNÍN"
+    },
+    {
+      "departamento": "LA LIBERTAD"
+    },
+    {
+      "departamento": "LAMBAYEQUE"
+    },
+    {
+      "departamento": "LIMA"
+    },
+    {
+      "departamento": "LORETO"
+    },
+    {
+      "departamento": "MADRE DE DIOS"
+    },
+    {
+      "departamento": "MOQUEGUA"
+    },
+    {
+      "departamento": "PASCO"
+    },
+    {
+      "departamento": "PIURA"
+    },
+    {
+      "departamento": "PUNO"
+    },
+    {
+      "departamento": "SAN MARTÍN"
+    },
+    {
+      "departamento": "TACNA"
+    },
+    {
+      "departamento": "TUMBES"
+    },
+    {
+      "departamento": "UCAYALI"
+    }
+  ]
+}

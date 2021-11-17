@@ -1,0 +1,49 @@
+{
+  "bgColorDividerDate":" #96D3D0" ,
+  "bgColorButtonDate":" #3F4474",
+  "bgColorDate":"#50BDB7",
+  "lineColorCursos":"#3E4472",
+  "bgColorCursos":"#5D618C",
+  "lineColorPasos":" #96D3D0 ",
+  "bgColorPasos":"#50BDB7",
+  "colorIcon":"salud",
+  "title":"Salud",
+  "text-con":"Conferencia Informativa",
+  "date":"14",
+  "month":"diciembre",
+  "dateTextSecond" : "Informativa",
+  "dateText":"Conferencia",
+  "buttonText":"Mira aquí el video",
+  "titleCurso":"Cursos del Certificado de Especialización en Gestión de la Salud",
+  "cursos":[
+    {
+      "img1" : "none",
+      "section": "Salud",
+      "curso": "Estrategias de relacionamiento comunitario y proyectos de salud",
+      "teacher": "Guillermo Alva Burga",
+      "horario": "Martes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/salud/estrategias-de-relacionamiento-comunitario-y-proyectos-de-salud/"
+    },
+    {
+      "img2" : "none",
+      "section": "Salud",
+      "curso": "Farmaeconomía",
+      "teacher": "Rosina Hinojosa Ramírez",
+      "horario": "Sábado de 9:00 a. m. a 12:15 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/salud/farmaeconomia/"
+    },
+    {
+      "img2" : "none",
+      "section": "Salud",
+      "curso": "Salud digital e historia clínica electrónica: desafíos y soluciones",
+      "teacher": "Juan Jorge Rodríguez Abad | Alfredo Rasmussen Ochoa",
+      "horario": "Martes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/salud/salud-digital-e-historia-clinica-electronica-desafios-y-soluciones/"
+    }
+  ],
+  "titlePasos":"Siguientes pasos",
+  "calendatioText":"Del 07 de junio al 07 de agosto de 2021 ",
+  "informesText":"Informes@esan.edu.pe Alonso de Molina 1652,Monterrico, Surco",
+  "folletoText":"Descarga el folleto del programa (pdf)",
+  "admisionText":"Postula"
+}

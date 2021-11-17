@@ -1,0 +1,178 @@
+{
+  "title":"Finanzas",
+  "text-con":"Conferencia Informativa",
+  "bgColorDividerDate":"#C6D1D7" ,
+  "bgColorButtonDate":"#051D43",
+  "bgColorDate":" #8395A1",
+  "lineColorCursos":"#051D43",
+  "bgColorCursos":"#727E9F",
+  "lineColorPasos":"#ADBCC5",
+  "bgColorPasos":" #8395A1",
+  "colorIcon":"finance",
+  "date":"02",
+  "month":"diciembre",
+  "dateTextSecond" : "Informativa",
+  "dateText":"Conferencia",
+  "buttonText":"Mira aquí el video",
+  "titleCurso":"Cursos del Certificado de Finanzas Corporativas",
+  "cursos":[
+    {
+      "img2" : "none",
+      "section": "Finanzas ",
+      "curso": "Análisis de estados financieros",
+      "teacher": "Marita Chang Olivas",
+      "horario": "Jueves de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/analisis-de-estados-financieros/"
+    },
+    {
+      "img2" : "none",
+      "section": "Finanzas ",
+      "curso": "Análisis de Riesgo Crediticio",
+      "teacher": "Arturo García Villacorta",
+      "horario": "Miércoles de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/analisis-de-riesgo-crediticio/"
+    },
+    {
+      "img2" : "none",
+      "section": "Finanzas",
+      "curso": "Análisis, modelamiento financiero y proyección de estados financieros a mediano y largo plazo",
+      "teacher": "Carlos Aguirre Gamarra ",
+      "horario": "Jueves de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/analisis-modelamiento-financiero-y-proyeccion-de-estaos-financieros-a-mediano-y-largo-plazo/"
+      
+    },
+    {
+      "img2" : "none",
+      "section": "Finanzas",
+      "curso": "Cómo gestionar un adecuado planeamiento tributario",
+      "teacher": "Reynaldo Moquillaza Orellana",
+      "horario": "Jueves de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/como-gestionar-un-adecuado-planeamiento-tributario/"
+    },
+    {
+      "img2" : "none",
+      "section": "Finanzas",
+      "curso": "Contabilidad Financiera Gerencial",
+      "teacher": "Luis Ramos Rodríguez",
+      "horario": "Martes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/contabilidad-financiera-gerencial/"
+    },
+    {
+      "img2" : "none",
+      "section": "Finanzas",
+      "curso": "Contabilidad y Finanzas para No Especialistas",
+      "teacher": "Patricia Gonzáles",
+      "horario": "Martes de 7:30 p.m. a 10:45 p.m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/contabilidad-y-finanzas-para-no-especialistas/"
+    },
+    {
+      "img2" : "none",
+      "section": "Finanzas",
+      "curso": "Estrategias financieras para la creación de valor",
+      "teacher": "Alfredo Mendiola Cabrera",
+      "horario": "Martes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/estrategias-financieras-para-la-creacion-de-valor/"
+    },
+    {
+      "img2" : "none",
+      "section": "Finanzas",
+      "curso": "Financiamiento para startups",
+      "teacher": "Luis Felipe Oliva Díaz",
+      "horario": "Lunes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/financiamiento-para-start-ups/"
+    },
+    {
+      "img2" : "none",
+      "section": "Finanzas",
+      "curso": "Finanzas en empresas B2B",
+      "teacher": "Alfredo Mendiola Cabrera | Carlos Aguirre Gamarra",
+      "horario": "Miércoles de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/b2b/finanzas-en-empresas-b2b/"
+    },
+    {
+      "img2" : "none",
+      "section": "Finanzas",
+      "curso": "Finanzas para proyectos sostenibles",
+      "teacher": "Walther Reátegui Vela",
+      "horario": "Lunes 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/finanzas-para-proyectos-sostenibles/"
+    },
+    {
+      "img2" : "none",
+      "section": "Finanzas",
+      "curso": "Gestión de créditos y cobranzas",
+      "teacher": "Arturo García Villacorta",
+      "horario": "Viernes de 7:30 p. m. a 10:45 p.m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/gestion-de-creditos-y-cobranzas/"
+    },
+    {
+      "img2" : "none",
+      "section": "Finanzas",
+      "curso": "Optimización de la gestión financiera y tributaria",
+      "teacher": "Marita Chang Olivas | Carlos Chirinos Sota",
+      "horario": "Viernes de 7:30 p. m. a 10:45 p.m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/optimizacion-de-la-gestion-financiera-y-tributaria/"
+    },
+    {
+      "img2" : "none",
+      "section": "Finanzas",
+      "curso": "Planeamiento Financiero",
+      "teacher": "Manuel Acevedo",
+      "horario": "Miércoles de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/planeamiento-financiero/"
+    },
+    {
+      "img2" : "none",
+      "section": "Finanzas",
+      "curso": "Costos para la Gerencia",
+      "teacher": "José Velazco Páucar",
+      "horario": "Jueves de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/costos-para-la-gerencia/"
+    }
+  ],
+  "titleSecondCurso":"Cursos del Certificado de Especialización en Preparación y Evaluación de Proyectos",
+  "SecondCurso":[
+    {
+      "img2" : "none",
+      "section": "Finanzas ",
+      "curso": "Formulación, Preparación y Evaluación de Proyectos Nuevos y Proyectos en Marcha",
+      "teacher": "Alex Albújar Cruz",
+      "horario": "Jueves de 7:30 p. m. a 10:45 p.m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/formulacion-preparacion-y-evaluacion-de-proyectos-nuevos-y-proyectos-en-marcha/"
+    },
+    {
+      "img2" : "none",
+      "section": "Finanzas ",
+      "curso": "Fusiones, Adquisiciones y Valorización de Empresas",
+      "teacher": "Enrique Cárcamo Cárcamo",
+      "horario": "Miércoles de 7:30 p. m a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/fusiones-adquisiciones-y-valorizacion-de-empresas/"
+    }
+  ],
+  "titleThreeCurso":"Cursos del Certificado de Especialización en Banca",
+  "ThreeCurso":[
+    {
+      "img2" : "none",
+      "section": "Finanzas ",
+      "curso": "Análisis de Riesgo Crediticio",
+      "teacher": "Arturo García Villacorta",
+      "horario": "Miércoles de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/analisis-de-riesgo-crediticio/"
+    },
+   
+    {
+      "img2" : "none",
+      "section": "Finanzas",
+      "curso": "Gestión de créditos y cobranzas",
+      "teacher": "Arturo García Villacorta",
+      "horario": "Viernes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/gestion-de-creditos-y-cobranzas/"
+    }
+
+  ],
+  "titlePasos":"Siguientes pasos",
+  "calendatioText":"calendario",
+  "informesText":"Informes",
+  "folletoText":"folleto",
+  "admisionText":"admision"
+}

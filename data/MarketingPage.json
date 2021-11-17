@@ -1,0 +1,143 @@
+{
+  "bgColorDividerDate":"#799AA0" ,
+  "bgColorButtonDate":"#35B3CC",
+  "bgColorDate":"#09484F",
+  "lineColorCursos":"#35B2CC",
+  "bgColorCursos":"#5A7880",
+  "lineColorPasos":"#84989F ",
+  "bgColorPasos":"#09484F",
+  "colorIcon":"marketing",
+  "title":"Marketing",
+  "text-con":"Conferencia Informativa",
+  "date":"07",
+  "month":"diciembre",
+  "dateTextSecond" : "Informativa",
+  "dateText":"Conferencia",
+  "buttonText":"Mira aquí el video",
+  "titleCurso":"Cursos del Certificado de Marketing",
+  "cursos":[
+    {
+      "img2" : "none",
+      "section": "Marketing",
+      "curso": "Customer Experience en B2B",
+      "teacher": "Manuel Ramos Soldevilla",
+      "horario": "Viernes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/b2b/customer-experience-en-b2b/"
+    },
+    {
+      "img2" : "none",
+      "section": "Marketing",
+      "curso": "Estrategias de Marketing B2B",
+      "teacher": "Jorge Merzthal Toranzo",
+      "horario": "Martes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/b2b/estrategias-de-marketing-b2b/"
+    },
+    {
+      "img2" : "none",
+      "section": "Marketing",
+      "curso": "Finanzas para el mundo comercial",
+      "teacher": "Lorena Calderón Pimentel",
+      "horario": "Lunes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/finanzas-para-el-mundo-comercial/"
+    },
+    {
+      "img2" : "none",
+      "section": "Marketing",
+      "curso": "Guerrilla marketing de bajo presupuesto: para pequeñas y medianas empresas",
+      "teacher": "Walter Palomino Tamayo",
+      "horario": "Miércoles de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/guerrilla-marketing-de-bajo-presupuesto-para-pequenas-y-medianas-empresas/"
+    },
+    {
+      "img2" : "none",
+      "section": "Marketing",
+      "curso": "Marketing de servicios y experiencia del cliente",
+      "teacher": "Otto Regalado Pezúa",
+      "horario": "Jueves de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/marketing-de-servicio/"
+    },
+    {
+      "img2" : "none",
+      "section": "Marketing",
+      "curso": "Marketing estratégico 4.0",
+      "teacher": "José Luis Wakabayashi Muroya",
+      "horario": "Lunes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/marketing-estrategico-40/"
+    },
+    {
+      "img2" : "none",
+      "section": "Marketing",
+      "curso": "Segmentación, targeting & posicionamiento estratégico",
+      "teacher": "Christian Aste León",
+      "horario": "Jueves de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/segmentacion-targeting-posicionamiento-estrategico/"
+    }
+  ],
+  "titleSecondCurso":"Certificado de Especialización en Marketing Digital",
+  "SecondCurso":[
+    {
+      "img2" : "none",
+      "section": "Marketing",
+      "curso": "E-Marketing",
+      "teacher": "Sergio Cuervo",
+      "horario": "Miércoles de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/e-marketing-estrategias-de-marketing-digital/"
+    },
+    {
+      "img2" : "none",
+      "section": "Marketing",
+      "curso": "Psicología aplicada al marketing digital: optimizando ratios de conversión",
+      "teacher": "Miguel Palacios",
+      "horario": "Lunes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/psicologia-aplicada-al-marketing-digital-optimizando-ratios-de-conversion/"
+    },
+    {
+      "img2" : "none",
+      "section": "Marketing",
+      "curso": "Tiendas Virtuales y Comercio Electrónico",
+      "teacher": "Daniel Chicoma Lúcar",
+      "horario": "Martes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/tiendas-virtuales-y-comercio-electronico/"
+    }
+  ],
+  "titleThreeCurso":"Certificado de Especialización en Dirección de Ventas",
+  "ThreeCurso":[
+    {
+      "img2" : "none",
+      "section": "Marketing",
+      "curso": "Finanzas para el mundo comercial",
+      "teacher": "Lorena Calderón Pimentel",
+      "horario": "Lunes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/finanzas-para-el-mundo-comercial/"
+    },
+    {
+      "img2" : "none",
+      "section": "Marketing",
+      "curso": "Fundamentos para el monitoreo efectivo del retail",
+      "teacher": "Christian Saksanian",
+      "horario": "Miércoles de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso": "https://www.esan.edu.pe/pee/areas/marketing/fundamentos-para-el-monitoreo-efectivo-del-retail/"
+    },
+    {
+      "img2" : "none",
+      "section": "Marketing",
+      "curso": "Gerencia de ventas",
+      "teacher": "José Luis Wakabayashi",
+      "horario": "Viernes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/gerencia-en-ventas/"
+    },
+    {
+      "img2" : "none",
+      "section": "Marketing",
+      "curso": "Herramientas de creatividad aplicadas a la innovación comercial",
+      "teacher": "Carlos Urbina Rivera",
+      "horario": "Jueves de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/herramientas-de-creatividad-aplicadas-a-la-innovacion-comercial/"
+    }
+  ],
+  "titlePasos":"Siguientes pasos",
+  "calendatioText":"calendario",
+  "informesText":"Informes",
+  "folletoText":"folleto",
+  "admisionText":"admision"
+}

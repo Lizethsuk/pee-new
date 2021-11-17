@@ -1,0 +1,51 @@
+{
+  "title":"BUSINESS TO",
+  "title2":"BUSINESS - B2B",
+  "text-con":"Conferencia Informativa",
+  "bgColorDividerDate":"#274668" ,
+  "bgColorButtonDate":"#274668",
+  "bgColorDate":"#476BA5",
+  "lineColorCursos":"#284568",
+  "bgColorCursos":"#DAE0E5",
+  "lineColorPasos":"#274668",
+  "bgColorPasos":"#476BA5",
+  "colorIcon":"b2b",  
+  "date":"08",
+  "month":"setiembre",
+  "dateTextSecond" : "Informativa",
+  "dateText":"Conferencia",
+  "buttonText":"Mira aquí el video",
+  "titleCurso":"Cursos del Certificado de Especialización en Gestión Estratégica y Transformación Digital B2B",
+  "cursos":[
+    {
+      "img1" : "none",
+      "section": "B2B",
+      "curso": "Customer Experience en B2B",
+      "teacher": "Manuel Ramos Soldevilla",
+      "horario": "Viernes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/b2b/customer-experience-en-b2b/"
+    },
+    {
+      "img2" : "none",
+      "section": "B2B",
+      "curso": "Estrategias de Marketing B2B",
+      "teacher": "Jorge Merzthal Toranzo",
+      "horario": "Martes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/b2b/estrategias-de-marketing-b2b/"
+    },
+    
+    {
+      "img2" : "none",
+      "section": "B2B",
+      "curso": "Finanzas en empresas B2B",
+      "teacher": "Alfredo Mendiola Cabrera | Carlos Aguirre",
+      "horario": "Miércoles de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/b2b/finanzas-en-empresas-b2b/"
+    }
+  ],
+  "titlePasos":"Siguientes pasos",
+  "calendatioText":"calendario",
+  "informesText":"Informes",
+  "folletoText":"folleto",
+  "admisionText":"admisión"
+}

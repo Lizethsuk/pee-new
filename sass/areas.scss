@@ -1,0 +1,44 @@
+@import 'base';
+@import 'disable';
+@import 'variable';
+@import 'mixin';
+
+.cursos-page{
+    background-color: white;
+    .nav-item{
+        max-width: 373px;
+        width: 100%;
+        .box-area{
+            font-weight: 700;
+            line-height: 23px;
+            width: 100%;
+            min-height: 217px;
+            border: 1px solid #7E6247;
+            padding: 10px;
+        }
+        .title-curso{
+            font-size: 15px;
+        }
+        .name-curso{
+            font-size: 19px;
+            font-weight: bold;
+        }
+        .encargado {
+            padding-top: 10px;
+            margin-block-end: 0px;
+            font-size: 15px;
+            font-family: 'Raleway-Bold';
+          }
+          .fecha {
+            font-size: 14px;
+            font-family: 'Raleway-Regular';
+            margin-block-start: 0px;
+          }  
+        hr.new4 {
+            border: 1px solid pink;
+            opacity: 1;
+            margin-block-end: 0.2em;
+          }
+    }
+
+}

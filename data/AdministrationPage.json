@@ -1,0 +1,141 @@
+{
+  "title":"Administración y",
+  "title2":"dirección de personas",
+  "text-con":"Conferencia Informativa",
+  "bgColorDividerDate":"#9E8469" ,
+  "bgColorButtonDate":"#CE920F",
+  "bgColorDate":"#7D6247",
+  "lineColorCursos":"#CF9111",
+  "bgColorCursos":"#7E6247",
+  "lineColorPasos":"#A69079 ",
+  "bgColorPasos":"#7D6247",
+  "colorIcon":"administracion",      
+  "date":"01",
+  "month":"diciembre",
+  "dateTextSecond" : "Informativa",
+  "dateText":"Conferencia",
+  "buttonText":"Mira aquí el video",
+  "titleCurso":"Cursos del Certificado de Administración",
+  "cursos":[
+    {
+      "img2" : "none",
+      "section": "Administración",
+      "curso": "Administración Gerencial: El Proceso Administrativo y sus Herramientas Claves de Gestión",
+      "teacher": "Enrique Louffat Olivares",
+      "horario": "Martes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/administracion/administracion-gerencial-el-proceso-administrativo-y-sus-herramientas-claves-de-gestion/"
+    },
+    {
+      "img2" : "none",
+      "section": "Administración ",
+      "curso": "De la gestión a la neurogestión en las organizaciones",
+      "teacher": "Adriana Rosario Delgado Luján",
+      "horario": "Jueves de 7:30 p. m. a 10:45 p.m",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/administracion/de-la-gestion-a-la-neurogestion-en-las-organizaciones/"
+    },
+    {
+      "img2" : "none",
+      "section": "Administración",
+      "curso": "Desarrollo de competencias gerenciales",
+      "teacher": "Lydia Arbaiza Fermini",
+      "horario": "Martes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/administracion/desarrollo-de-competencias-gerenciales/"
+    },
+    {
+      "img2" : "none",
+      "section": "Administración",
+      "curso": "El desafío de la agilidad en las organizaciones",
+      "teacher": "Yolanda Valle Ramella | Gustavo Ortega Ubillús",
+      "horario": "Miércoles de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/administracion/el-desafio-de-la-agilidad-en-las-organizaciones/"
+    },
+    {
+      "img2" : "none",
+      "section": "Administración",
+      "curso": "Gestión de cadenas de restaurantes",
+      "teacher": "Andrés García Uribe | Gabriel Levano Muñoz",
+      "horario": "Viernes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/administracion/gestion-de-cadenas-de-restaurantes/"
+    },
+    {
+      "img2" : "none",
+      "section": "Administración",
+      "curso": "Gestión de proyectos",
+      "teacher": "Peter Yamakawa Tsuja",
+      "horario": "Miércoles de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/administracion/gestion-de-proyectos/"
+    },
+    {
+      "img2" : "none",
+      "section": "Administración",
+      "curso": "Gestionando cambios en entornos inciertos con metodologías ágiles",
+      "teacher": "Jessica Alzamora Ruiz",
+      "horario": "Lunes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/administracion/gestionando-cambios-en-entornos-inciertos-con-metodologias-agiles/"
+    },
+    {
+      "img2" : "none",
+      "section": "Administración",
+      "curso": "Nociones legales básicas en la gestión empresarial",
+      "teacher": "Patricia García Santillan Camacho",
+      "horario": "Jueves de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/administracion/nociones-legales-basicas-en-la-gestion-empresarial/"
+    }
+  ],
+  "titleSecondCurso" : "Cursos del Certificado de Dirección de Personas",
+  "cursosSecond":[
+    {
+      "img1" : "none",
+      "section": "Dirección de personas ",
+      "curso": "HR Agile: recursos humanos y agilidad organizacional",
+      "teacher": "Guillermo Defilippi Rodríguez",
+      "horario": "Viernes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/direccion-de-personas/hr-agile-recursos-humanos-y-agilidad-organizacional/"
+    },
+    {
+      "img1" : "none",
+      "section": "Dirección de personas",
+      "curso": "Liderazgo y Dirección de personas",
+      "teacher": "Kety Jauregui",
+      "horario": "Martes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/direccion-de-personas/liderazgo-y-direccion-de-personas/"
+    },
+    {
+      "img2" : "none",
+      "section": "Dirección de personas",
+      "curso": "Reclutamiento y Selección por Competencias",
+      "teacher": "Susy Quevedo García",
+      "horario": "Martes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/direccion-de-personas/reclutamiento-y-seleccion-por-competencias/"
+    },
+    {
+      "img2" : "none",
+      "section": "Dirección de personas",
+      "curso": "Remuneraciones y compensaciones",
+      "teacher": "Nazaret Abad Zarco",
+      "horario": "Viernes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/direccion-de-personas/remuneracion-y-compensaciones/"
+    },
+    {
+      "img2" : "none",
+      "section": "Dirección de personas",
+      "curso": "Sistemas de Evaluación del Desempeño",
+      "teacher": "Letty Cossi Guerrero",
+      "horario": "Lunes de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/direccion-de-personas/sistemas-de-evaluacion-del-desempleo-implantacion-y-gestion/"
+    },
+    {
+      "img2" : "none",
+      "section": "Dirección de personas",
+      "curso": "Gestión del bienestar laboral",
+      "teacher": "Kety Jáuregui Machuca | Juan Palomino Baldeón",
+      "horario": "Jueves de 7:30 p. m. a 10:45 p. m.",
+      "linkCurso":"https://www.esan.edu.pe/pee/areas/direccion-de-personas/gestion-del-bienestar-laboral/"
+    }
+  ],
+  "titlePasos":"Siguientes pasos",
+  "calendatioText":"calendario",
+  "informesText":"Informes",
+  "folletoText":"folleto",
+  "admisionText":"admisión"
+}
