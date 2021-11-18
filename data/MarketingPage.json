@@ -17,7 +17,7 @@
   "titleCurso":"Cursos del Certificado de Marketing",
   "cursos":[
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Customer Experience en B2B",
       "teacher": "Manuel Ramos Soldevilla",
@@ -25,7 +25,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/b2b/customer-experience-en-b2b/"
     },
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Estrategias de Marketing B2B",
       "teacher": "Jorge Merzthal Toranzo",
@@ -33,7 +33,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/b2b/estrategias-de-marketing-b2b/"
     },
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Finanzas para el mundo comercial",
       "teacher": "Lorena Calderón Pimentel",
@@ -41,7 +41,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/finanzas-para-el-mundo-comercial/"
     },
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Guerrilla marketing de bajo presupuesto: para pequeñas y medianas empresas",
       "teacher": "Walter Palomino Tamayo",
@@ -49,7 +49,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/guerrilla-marketing-de-bajo-presupuesto-para-pequenas-y-medianas-empresas/"
     },
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Marketing de servicios y experiencia del cliente",
       "teacher": "Otto Regalado Pezúa",
@@ -57,7 +57,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/marketing-de-servicio/"
     },
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Marketing estratégico 4.0",
       "teacher": "José Luis Wakabayashi Muroya",
@@ -65,7 +65,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/marketing-estrategico-40/"
     },
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Segmentación, targeting & posicionamiento estratégico",
       "teacher": "Christian Aste León",
@@ -76,7 +76,7 @@
   "titleSecondCurso":"Certificado de Especialización en Marketing Digital",
   "SecondCurso":[
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "E-Marketing",
       "teacher": "Sergio Cuervo",
@@ -84,7 +84,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/e-marketing-estrategias-de-marketing-digital/"
     },
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Psicología aplicada al marketing digital: optimizando ratios de conversión",
       "teacher": "Miguel Palacios",
@@ -92,7 +92,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/psicologia-aplicada-al-marketing-digital-optimizando-ratios-de-conversion/"
     },
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Tiendas Virtuales y Comercio Electrónico",
       "teacher": "Daniel Chicoma Lúcar",
@@ -103,7 +103,7 @@
   "titleThreeCurso":"Certificado de Especialización en Dirección de Ventas",
   "ThreeCurso":[
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Finanzas para el mundo comercial",
       "teacher": "Lorena Calderón Pimentel",
@@ -111,7 +111,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/finanzas-para-el-mundo-comercial/"
     },
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Fundamentos para el monitoreo efectivo del retail",
       "teacher": "Christian Saksanian",
@@ -119,7 +119,7 @@
       "linkCurso": "https://www.esan.edu.pe/pee/areas/marketing/fundamentos-para-el-monitoreo-efectivo-del-retail/"
     },
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Gerencia de ventas",
       "teacher": "José Luis Wakabayashi",
@@ -127,7 +127,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/gerencia-en-ventas/"
     },
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Herramientas de creatividad aplicadas a la innovación comercial",
       "teacher": "Carlos Urbina Rivera",

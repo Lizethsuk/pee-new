@@ -18,7 +18,7 @@
   "titleCurso":"Cursos del Certificado de Especialización en Operaciones y Logística",
   "cursos":[
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Administración de la demanda y plan de compras",
       "teacher": "Max Vargas Sánchez",
@@ -26,7 +26,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/operaciones-y-logistica/administracion-de-la-demanda-y-plan-de-compras/"
     },
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Evaluación del desempeño logístico: uso de indicadores",
       "teacher": "Armando Valdés Garrido Lecca",
@@ -34,7 +34,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/operaciones-y-logistica/evaluacion-del-desempeno-logistico-uso-de-indicadores/"
     },
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Forecasting, Advanced Planning y Scheduling y Optimización de la Cadena de Abastecimiento",
       "teacher": "Christian Ramírez",
@@ -42,7 +42,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/operaciones-y-logistica/forecasting-advanced-planning-y-scheduling-y-optimizacion-de-la-cadena-de-abastecimiento/"
     },
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Gerencia de compras y abastecimiento",
       "teacher": "Victor Tateishi Saito",
@@ -51,7 +51,7 @@
     }
     ,
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Gerencia de operaciones",
       "teacher": "Aldo de la Cruz | Aldo Bresani Torres",
@@ -60,7 +60,7 @@
     }
     ,
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Gerencia Industrial Lean",
       "teacher": "Fernando Maradiegue Tuesta",
@@ -69,7 +69,7 @@
     }
     ,
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Gestión de Optimización de Centro de Distribución y Transporte",
       "teacher": "David Gallardo Yaya",
@@ -78,7 +78,7 @@
     }
     ,
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Logística naviera",
       "teacher": "Carlos Figueredo",
@@ -87,7 +87,7 @@
     }
     ,
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Supply Chain Management",
       "teacher": "Germán Velásquez Salazar",
@@ -95,7 +95,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/operaciones-y-logistica/supply-chain-management/"
     },
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Técnicas prácticas de calidad para elevar la rentabilidad en la empresa",
       "teacher": "Aldo Bresani Torres",
@@ -103,7 +103,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/operaciones-y-logistica/planeamiento-y-control-de-la-produccion/"
     },
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Lean thinking & tools para procesos de bienes y servicios",
       "teacher": "Freddy Alvarado Vargas",
@@ -111,7 +111,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/operaciones-y-logistica/lean-thinking-tools-para-procesos-de-bienes-y-servicios/"
     },
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Técnicas prácticas de calidad para elevar la rentabilidad en la empresa",
       "teacher": "Aldo Bresani Torres",
@@ -122,7 +122,7 @@
   "titleSecondCurso":"Cursos del Certificado de Especialización en Gestión de Procesos",
   "SecondCurso":[
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Análisis cuantitativo para la toma de decisiones",
       "teacher": "Tomás Minauro Latorre",
@@ -130,7 +130,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/operaciones-y-logistica/analisis-cuantitativo-para-la-toma-de-decisiones/"
     },
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Herramientas de BPMN para el Modelamiento y Simulación de Procesos",
       "teacher": "José Díaz León",
@@ -138,7 +138,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/operaciones-y-logistica/herramientas-de-bpmn-para-modelamiento-y-simulacion-de-procesos/"
     },
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Implementación ágil de procesos con design thinking y gestionada con Scrum",
       "teacher": "Gustavo Ortega Ubillús",
@@ -147,7 +147,7 @@
     }
     ,
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Indicadores (KPI's) y OKR's para la gestión de procesos",
       "teacher": "Luis Fernández Aguilar",
@@ -156,7 +156,7 @@
     }
     ,
     {
-      "img1" : "none",
+      "img" : "../images/areas/new-online.png",
       "section": "Operaciones y Logística",
       "curso": "Técnicas prácticas de calidad para elevar la rentabilidad en la empresa",
       "teacher": "Aldo Bresani Torres",
@@ -168,7 +168,7 @@
   "titleThreeCurso":"Cursos del Certificado de Especialización en Gerencia de Proyectos",
   "ThreeCurso":[
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Gestión de proyectos",
       "teacher": "Peter Yamakawa Tsuja",
@@ -176,7 +176,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/operaciones-y-logistica/gestion-de-proyectos/"
     },
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Herramientas para la Gerencia de Proyectos",
       "teacher": "Luis Madrid Guerra",

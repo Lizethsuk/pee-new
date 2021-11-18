@@ -17,7 +17,7 @@
   "titleCurso":"Cursos del Certificado de Especialización en Gestión de la Salud",
   "cursos":[
     {
-      "img1" : "none",
+      "img": "../images/areas/new-online.png",
       "section": "Salud",
       "curso": "Estrategias de relacionamiento comunitario y proyectos de salud",
       "teacher": "Guillermo Alva Burga",
@@ -25,7 +25,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/salud/estrategias-de-relacionamiento-comunitario-y-proyectos-de-salud/"
     },
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Salud",
       "curso": "Farmaeconomía",
       "teacher": "Rosina Hinojosa Ramírez",
@@ -33,7 +33,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/salud/farmaeconomia/"
     },
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Salud",
       "curso": "Salud digital e historia clínica electrónica: desafíos y soluciones",
       "teacher": "Juan Jorge Rodríguez Abad | Alfredo Rasmussen Ochoa",
