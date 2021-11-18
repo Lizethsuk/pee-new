@@ -2,43 +2,307 @@
 @import 'disable';
 @import 'variable';
 @import 'mixin';
+// .body-color {
+//   background: white ;
+//   color: #fff;
+// }
+// .cursos-page{
+//     background-color: white;
+//     .nav-item{
+//         max-width: 373px;
+//         width: 100%;
+//         .box-area{
+//             font-weight: 700;
+//             line-height: 23px;
+//             width: 100%;
+//             min-height: 217px;
+//             border: 1px solid #7E6247;
+//             padding: 10px;
+//         }
+//         .title-curso{
+//             font-size: 15px;
+//         }
+//         .name-curso{
+//             font-size: 19px;
+//             font-weight: bold;
+//         }
+//         .encargado {
+//             padding-top: 10px;
+//             margin-block-end: 0px;
+//             font-size: 15px;
+//             font-family: 'Raleway-Bold';
+//           }
+//           .fecha {
+//             font-size: 14px;
+//             font-family: 'Raleway-Regular';
+//             margin-block-start: 0px;
+//           }  
+//         hr.new4 {
+//             border: 1px solid pink;
+//             opacity: 1;
+//             margin-block-end: 0.2em;
+//           }
+//     }
 
-.cursos-page{
-    background-color: white;
-    .nav-item{
-        max-width: 373px;
-        width: 100%;
-        .box-area{
-            font-weight: 700;
-            line-height: 23px;
-            width: 100%;
-            min-height: 217px;
-            border: 1px solid #7E6247;
-            padding: 10px;
-        }
-        .title-curso{
-            font-size: 15px;
-        }
-        .name-curso{
-            font-size: 19px;
-            font-weight: bold;
-        }
-        .encargado {
-            padding-top: 10px;
-            margin-block-end: 0px;
-            font-size: 15px;
-            font-family: 'Raleway-Bold';
-          }
-          .fecha {
-            font-size: 14px;
-            font-family: 'Raleway-Regular';
-            margin-block-start: 0px;
-          }  
-        hr.new4 {
-            border: 1px solid pink;
-            opacity: 1;
-            margin-block-end: 0.2em;
-          }
+// }
+
+
+.title-text-curso {
+  // font-family: gt-pressura-bold;
+  font-size :30px;
+  padding-top :20px;
+  padding-bottom: 20px;
+  color:#212529
+  
+}
+
+.cursos-page {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.curso-content{
+  flex-direction: row;
+  display: flex;
+  justify-content : flex-start ;
+  flex-wrap : wrap ;
+}
+
+.nav-link {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.section-areas {
+  padding: 50px 0px;
+
+}
+
+section {
+  border-bottom: 4px solid
+}
+
+
+.text {
+  color: #212529;
+  text-decoration: none; /* no underline */
+}
+
+.name-curso {
+  font-size: 19px;
+  font-family: gt-pressura-bold;
+}
+
+.title-curso {
+  font-size: 15px;
+  margin-block-end: 5px;
+  font-family: Raleway-Regular;
+}
+
+.fecha {
+  font-size: 14px;
+  font-family: Raleway-Regular;
+  margin-block-start: 0px;
+}
+
+.encargado {
+  padding-top: 10px;
+  margin-block-end: 0px;
+  font-size: 15px;
+  font-family: Raleway-Bold;
+}
+
+hr.new4 {
+  border: 1px solid ;
+  opacity: 1;
+  margin-block-end: 0.2em;
+}
+hr.admi-line {
+  background-color: #ce920f;
+  height: 5px;
+  opacity: 1 !important;
+}
+
+.cursos-page {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+h3 {
+  margin: 40px 0 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.curso-content-item {
+  display: inline-block;
+  max-width: 374px;
+  width: 100% !important;
+  font-size: 24px;
+  min-height: 70px;
+  margin: 0px 3px;
+}
+
+a {
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+// .curso-content {
+//   flex-direction: row;
+//   display: flex;
+//   justify-content: space-between;
+//   flex-wrap: wrap;
+// }
+
+.nav-link {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.box-area {
+  font-weight: bold;
+  line-height: 23px;
+  width: 100%;
+  height: 217px;
+  border: 1px solid ;
+  padding: 10px;
+}
+
+li {
+  background: #DBDBDB;
+  margin: 0 3px 10px 3px !important;
+}
+
+li:nth-child(odd) {
+  background: white;
+}
+
+// .home-banner {
+// height: 88vh;
+// }
+.section-areas {
+  padding: 50px 0px;
+  padding-top: 20px;
+}
+
+section {
+  border-bottom: 4px solid 
+}
+
+.pdf {
+    text-decoration: none !important;
+  color: white !important;
+}
+
+.subtitle {
+   font-family :gt-pressura-bold;
+  padding-top :20px;
+}
+ 
+.title
+{
+   text-align :center;
+  font-size :30px;
+  font-family: gt-pressura-bold;
+}
+ 
+.pasos-content {
+
+    border-right: 2px solid ;
+  text-align :center;
+  height: 180px;
+}
+
+.pasos-page {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--bg-color);
+}
+.description-text {
+    font-family : Raleway-Regular
+}
+
+.pasos-areas {
+  padding: 50px 4px ;
+  color : white !important ;
+  margin : 0 auto  ;
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .pasos-content  {
+    border-right: none
+  }
+
+}
+   
+@media ( max-width: 767px) {
+  .pasos-content {
+    border-right: none ;  
+    margin : 0 ;
+    margin-top : 25px ;
     }
+}
+ 
+    // .folleto-content
+    //   padding-top 25px
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .curso-content-item  {
+    max-width: 373px;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .curso-content-item {
+    max-width: 311px;
+    width: 100% !important;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .curso-content-item {
+    max-width: 353px;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .box-area {
+    height: auto;
+  }
+}
+@media ( max-width: 767px) {
+    .section-areas {
+      padding: 50px 25px;
+    margin: 0
+    }
+  
+  .title-text-curso {
+    line-height :  30px ;
+    font-size :28px;
+  }
 
 }
