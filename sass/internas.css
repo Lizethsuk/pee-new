@@ -1,0 +1,58 @@
+.col-title {
+  padding-top: 320px;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  background-color: #252a2d !important;
+}
+
+.image {
+  height: 500px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.4;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 55px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  width: 12em;
+  font-family: gt-pressura-bold;
+  line-height: 68px;
+}
+
+.line {
+  border-top: 3px solid var(--bg-color-divider);
+  max-width: 50.5vw;
+  width: auto;
+  margin-left: -25rem;
+  opacity: 1 !important;
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  margin-bottom: 55px;
+}
+
+.title-content {
+  bottom: -3rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=internas.css.map */

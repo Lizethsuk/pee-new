@@ -17,7 +17,7 @@
   "titleCurso":"Cursos del Certificado de Especialización en Gestión  Minera",
   "cursos":[
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Energía",
       "curso": "Gestión financiera para la pequeña minería",
       "teacher": "Alfredo Mendiola Cabrera | Carlos Aguirre Gamarra",
@@ -25,7 +25,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/mineria/gestion-financiera-para-la-pequena-mineria/"
     },
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Energía",
       "curso": "Gestión de riesgos en operaciones minera",
       "teacher": "Tomás Chaparro",
@@ -33,7 +33,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/mineria/gestion-de-riesgos-en-operaciones-mineras/"
     },
     {
-      "img2" : "none",
+      "img": "../images/areas/online.png",
       "section": "Energía",
       "curso": "Gestión de sistemas de compensación y retribución total en empresas del sector minería y energía",
       "teacher": "Martín Vergara Pinto",

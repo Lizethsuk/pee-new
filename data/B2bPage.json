@@ -18,7 +18,7 @@
   "titleCurso":"Cursos del Certificado de Especialización en Gestión Estratégica y Transformación Digital B2B",
   "cursos":[
     {
-      "img1" : "none",
+      "img" : "../images/areas/online.png",
       "section": "B2B",
       "curso": "Customer Experience en B2B",
       "teacher": "Manuel Ramos Soldevilla",
@@ -26,7 +26,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/b2b/customer-experience-en-b2b/"
     },
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "B2B",
       "curso": "Estrategias de Marketing B2B",
       "teacher": "Jorge Merzthal Toranzo",
@@ -35,7 +35,7 @@
     },
     
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "B2B",
       "curso": "Finanzas en empresas B2B",
       "teacher": "Alfredo Mendiola Cabrera | Carlos Aguirre",

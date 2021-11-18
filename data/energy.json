@@ -18,7 +18,7 @@
   "cursos":[
     
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Energía",
       "curso": "Biocombustibles y energías alternativas. Los combustibles fósiles deciden reinventarse",
       "teacher": "Victor Fernández Guzmán",
@@ -26,7 +26,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/energia/biocombustibles-y-energias-alternativas-los-combustibles-fosiles-deciden-reinventarse/"
     },
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Energía",
       "curso": "Gestión de sistemas de compensación y retribución total en empresas del sector minería y energía",
       "teacher": "Martín Vergara Pinto",
@@ -34,7 +34,7 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/mineria/gestion-de-sistemas-de-compensacion-y-retribucion-total-en-empresas-del-sector-mineria-y-energia/"
     },
     {
-      "img2" : "none",
+      "img" : "../images/areas/online.png",
       "section": "Energía",
       "curso": "Planificación energética",
       "teacher": "Luis Espinoza Quiñonez",
