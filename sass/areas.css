@@ -347,55 +347,331 @@ header end
   color: #C0B170;
 }
 
+.body-color {
+  background: white;
+  color: #fff;
+}
+
+.title-text-curso {
+  font-family: gt-pressura-bold;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #212529;
+}
+
 .cursos-page {
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: white;
 }
 
-.cursos-page .nav-item {
-  max-width: 373px;
-  width: 100%;
+.curso-content {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.cursos-page .nav-item .box-area {
-  font-weight: 700;
-  line-height: 23px;
-  width: 100%;
-  min-height: 217px;
-  border: 1px solid #7E6247;
-  padding: 10px;
+.nav-link {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
-.cursos-page .nav-item .title-curso {
-  font-size: 15px;
-  font-family: 'Raleway-Regular';
+section {
+  border-bottom: 4px solid;
 }
 
-.cursos-page .nav-item .name-curso {
+.text {
+  color: #212529;
+  text-decoration: none;
+  /* no underline */
+}
+
+.name-curso {
   font-size: 19px;
-  font-weight: bold;
-  font-family: 'gt-pressura-bold';
+  font-family: gt-pressura-bold;
 }
 
-.cursos-page .nav-item .encargado {
-  padding-top: 10px;
-  -webkit-margin-after: 0px;
-          margin-block-end: 0px;
+.title-curso {
   font-size: 15px;
-  font-family: 'Raleway-Bold';
+  -webkit-margin-after: 5px;
+          margin-block-end: 5px;
+  font-family: Raleway-Regular;
 }
 
-.cursos-page .nav-item .fecha {
+.fecha {
   font-size: 14px;
-  font-family: 'Raleway-Regular';
+  font-family: Raleway-Regular;
   -webkit-margin-before: 0px;
           margin-block-start: 0px;
 }
 
-.cursos-page .nav-item hr.new4 {
-  border: 1px solid pink;
+.encargado {
+  padding-top: 10px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  font-size: 15px;
+  font-family: Raleway-Bold;
+}
+
+hr.new4 {
+  border: 1px solid;
   opacity: 1;
   -webkit-margin-after: 0.2em;
           margin-block-end: 0.2em;
+}
+
+.cursos-page {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+h3 {
+  margin: 40px 0 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.curso-content-item {
+  display: inline-block;
+  max-width: 374px;
+  width: 100% !important;
+  font-size: 24px;
+  min-height: 70px;
+  margin: 0px 3px;
+}
+
+a {
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-link {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.box-area {
+  font-weight: bold;
+  line-height: 23px;
+  width: 100%;
+  height: 217px;
+  border: 1px solid;
+  padding: 10px;
+}
+
+li {
+  background: #DBDBDB;
+  margin: 0 3px 10px 3px !important;
+}
+
+li:nth-child(odd) {
+  background: white;
+}
+
+.section-areas {
+  padding: 50px 0px;
+  padding-top: 20px;
+}
+
+.pdf {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.subtitle {
+  font-family: gt-pressura-bold;
+  padding-top: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-family: gt-pressura-bold;
+}
+
+.pasos-content {
+  border-right: 2px solid;
+  text-align: center;
+  height: 180px;
+}
+
+.pasos-page {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--bg-color);
+}
+
+.description-text {
+  font-family: Raleway-Regular;
+  font-size: 1em;
+}
+
+.pasos-areas {
+  padding: 50px 4px;
+  color: white !important;
+  margin: 0 auto;
+}
+
+.col-title {
+  padding-top: 190px;
+}
+
+.image {
+  height: 590px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.4;
+}
+
+.form-g {
+  padding: 25px 0;
+  background-color: #262b2d;
+  max-width: 390px;
+}
+
+.all-btn {
+  padding: 0 35px;
+}
+
+.vl {
+  height: 100px;
+  margin-left: -20px;
+}
+
+.text-date-responsive {
+  display: none;
+}
+
+.button-content {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.border-text {
+  border-left: 5px solid blue;
+  padding-right: 50px;
+}
+
+.text-date {
+  text-align: right;
+  padding-right: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'gt-pressura-bold';
+}
+
+.section-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: gt-pressura-bold;
+}
+
+.section-1 {
+  position: absolute;
+  z-index: 2;
+  width: 50px;
+  font-size: 120px;
+  margin-right: 310px;
+  margin-top: -67px;
+  font-weight: bold;
+  line-height: 182px;
+}
+
+.section-2 {
+  font-size: 35.53px;
+  position: relative;
+  z-index: 1;
+  text-align: right;
+  width: 290px;
+  padding-right: 2px;
+  font-weight: bold;
+  height: 63px;
+  line-height: 57px;
+}
+
+.date-page {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.content-date {
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.month {
+  font-size: 25px;
+}
+
+.number {
+  font-size: 40px;
+}
+
+.button-nav {
+  width: 316px;
+  font-family: 'gt-pressura-bold';
+  height: 71px;
+  font-size: 29.82px;
+  font-weight: bold;
+  line-height: 37px;
+}
+
+.btn-secondary {
+  font-family: 'gt-pressura-bold';
+}
+
+.col-md-1 {
+  width: 4.33% !important;
 }
 
 .jumbotron {
@@ -404,22 +680,7 @@ header end
   border-radius: 0px;
 }
 
-.jumbotron .image {
-  height: 590px;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.jumbotron .image:before {
-  content: ' ';
-  display: block;
-  position: absolute;
-  z-index: 1;
-  opacity: 0.4;
-}
-
-.jumbotron .title {
+.jumbotron .title-jumbotron {
   text-transform: uppercase;
   font-size: 55px;
   -webkit-margin-after: 0px;
@@ -451,118 +712,221 @@ header end
           align-items: center;
 }
 
-.date-page .text-date-responsive {
-  display: none;
+@media (max-width: 767px) {
+  .text-date {
+    text-align: center;
+    padding-right: 0 !important;
+  }
+  .text-date-desktop {
+    display: none;
+  }
+  .text-date-responsive {
+    display: block;
+  }
+  .second-title {
+    padding-left: 5px;
+  }
+  .day-content {
+    padding-top: 20px;
+  }
 }
 
-.date-page .button-content {
-  padding-top: 10px;
-  text-align: center;
+@media (max-width: 575.98px) {
+  .subtitle {
+    font-size: 25.65px;
+  }
 }
 
-.date-page .border-text {
-  border-left: 5px solid blue;
-  padding-right: 50px;
+@media only screen and (max-width: 1700px) {
+  .section-1 {
+    width: 50px;
+    font-size: 80px;
+    margin-right: 225px;
+    margin-top: -67px;
+    font-weight: 700;
+    line-height: 182px;
+  }
+  .section-2 {
+    font-size: 28.53px;
+    position: relative;
+    z-index: 1;
+    text-align: right;
+    width: 250px !important;
+    padding-right: 10px;
+    font-weight: 700;
+    height: 63px;
+    line-height: 57px;
+  }
 }
 
-.date-page .vl {
-  border-left: 2px solid var(--bg-color-divider);
-  height: 100px;
-  margin-left: -20px;
+@media (max-width: 767px) {
+  .pasos-content {
+    border-right: none;
+    margin: 0;
+    margin-top: 25px;
+  }
+  .pasos-content .cursos-page {
+    background-color: white;
+  }
+  .pasos-content .cursos-page .nav-item {
+    max-width: 373px;
+    width: 100%;
+  }
+  .pasos-content .cursos-page .nav-item .box-area {
+    font-weight: 700;
+    line-height: 23px;
+    width: 100%;
+    min-height: 217px;
+    border: 1px solid #7E6247;
+    padding: 10px;
+  }
+  .pasos-content .cursos-page .nav-item .title-curso {
+    font-size: 15px;
+    font-family: 'Raleway-Regular';
+  }
+  .pasos-content .cursos-page .nav-item .name-curso {
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'gt-pressura-bold';
+  }
+  .pasos-content .cursos-page .nav-item .encargado {
+    padding-top: 10px;
+    -webkit-margin-after: 0px;
+            margin-block-end: 0px;
+    font-size: 15px;
+    font-family: 'Raleway-Bold';
+  }
+  .pasos-content .cursos-page .nav-item .fecha {
+    font-size: 14px;
+    font-family: 'Raleway-Regular';
+    -webkit-margin-before: 0px;
+            margin-block-start: 0px;
+  }
+  .pasos-content .cursos-page .nav-item hr.new4 {
+    border: 1px solid pink;
+    opacity: 1;
+    -webkit-margin-after: 0.2em;
+            margin-block-end: 0.2em;
+  }
 }
 
-.date-page .text-date {
-  text-align: right;
-  padding-right: 20px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: 'gt-pressura-bold';
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .curso-content-item {
+    max-width: 373px;
+    width: 100% !important;
+  }
 }
 
-.date-page .section-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: 'gt-pressura-bold';
+@media (min-width: 992px) and (max-width: 1199px) {
+  .curso-content-item {
+    max-width: 311px;
+    width: 100% !important;
+  }
 }
 
-.date-page .section-1 {
-  position: absolute;
-  z-index: 2;
-  width: 50px;
-  font-size: 120px;
-  margin-right: 310px;
-  margin-top: -67px;
-  font-weight: bold;
-  line-height: 182px;
+@media (min-width: 768px) and (max-width: 991px) {
+  .curso-content-item {
+    max-width: 353px;
+    width: 100% !important;
+  }
 }
 
-.date-page .section-2 {
-  font-size: 35.53px;
-  position: relative;
-  z-index: 1;
-  text-align: right;
-  width: 290px;
-  padding-right: 2px;
-  font-weight: bold;
-  height: 63px;
-  line-height: 57px;
+@media (max-width: 767px) {
+  .box-area {
+    height: auto;
+  }
+  .section-areas {
+    padding: 50px 25px;
+    margin: 0;
+  }
+  .title-text-curso {
+    line-height: 30px;
+    font-size: 28px;
+  }
+  .line {
+    max-width: 105vw !important;
+    margin-left: -7rem !important;
+    width: auto !important;
+    margin-bottom: 30px !important;
+  }
+  .ttitle-jumbotron {
+    font-size: 40px;
+    line-height: 40px;
+    width: auto;
+  }
+  .image {
+    min-height: 770px;
+  }
+  .title-content {
+    bottom: 0rem;
+    position: relative;
+  }
+  .col-title {
+    padding-top: 70px;
+  }
 }
 
-.date-page .btn-secondary {
-  font-family: 'gt-pressura-bold';
+@media (max-width: 767px) and (max-width: 575.98px) {
+  .title-jumbotron {
+    font-size: 33px !important;
+    line-height: 35px !important;
+    width: auto;
+  }
 }
 
-.date-page .date-page {
-  left: 0;
-  bottom: 0;
-  width: 100%;
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .line {
+    max-width: 81vw;
+    margin-left: -10rem;
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .title-jumbotron {
+    font-size: 44px !important;
+    line-height: 52px;
+    width: auto;
+  }
+  .col-title {
+    padding-top: 90px;
+  }
 }
 
-.date-page .pasos-areas {
-  padding: 45px 0px;
-  color: white;
+.pasos-content {
+  border-color: #A69079;
 }
 
-.date-page .content-date {
-  color: white;
-  padding: 30px;
-  text-align: center;
+.jumbotron {
+  background-image: url("../images/areas/administracion/kv_007-1.jpg");
 }
 
-.date-page .month {
-  font-size: 25px;
+.date-admi {
+  background-color: #7D6247;
 }
 
-.date-page .number {
-  font-size: 40px;
+.button-admi {
+  background-color: #CE920F !important;
 }
 
-.date-page .button-nav {
-  width: 316px;
-  height: 71px;
-  font-size: 29.82px;
-  font-weight: bold;
-  line-height: 37px;
+.section-admi {
+  background-color: #CE920F !important;
 }
 
-.date-page .subtitle {
-  font-size: 39.82px;
-  line-height: 47px;
-  padding: 15px 0px 18px;
-  font-weight: 500;
-  margin-bottom: 0px;
+.vl {
+  border-left: 2px solid #9E8469;
 }
 
-.date-page .col-md-1 {
-  width: 4.33% !important;
+.pasos-page {
+  background-color: #7D6247;
+}
+
+.icon-admi {
+  fill: #CF9111;
+  stroke: none;
+}
+
+hr.admi-line {
+  background-color: #ce920f;
+  height: 5px;
+  opacity: 1 !important;
 }
 /*# sourceMappingURL=areas.css.map */
