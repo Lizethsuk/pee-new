@@ -140,139 +140,140 @@ ul{
    margin: 0;
    
 }
-a:link,
-a:visited {
-    text-decoration: none;
+
+
+/*===========
+footer
+=========*/
+.footer{
+   left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #6b6b6b;
+  color: white;
+   .icon{
+      margin: 0 15px
+   }
+  
+.bv-footer-row{
+   padding-right: 130px;
+  padding-left: 130px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
-a {
-    @include transition();
+  
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom:  20px
 }
 
-a.read-more {
-    color: $primary-color;
-    font-weight: 700;
+.distrito,
+.direccion,  
+.text-uni{
+   font-family: 'Roboto-Regular'
+}
+  
+.correo, .web{
+   font-family: 'Roboto-Bold'
+}
+  
+.correo {
+   font-size: 19px
+}
+  
+.web,  
+.text-uni,
+.direccion,
+.distrito {
+   font-size: 12px;
+   margin: 2px 0px;
+}
+  
+.web  
+.text-uni
+.correo
+.direccion
+.distrito {
+   margin-block-end: 0px
+}
+  
+.data {
+  text-align: right;
 }
 
-.body-color{
-   background: #FFFFFF;
-   color: #212529;
+.column-three {
+  text-align: center;
 }
+}
+/*===========
+footer end
+=========*/
 
-section,
-.section-padding {
-    position: relative;
-}
-.section-bg{
-   background: #f9fafc;
-}
-.no-padding {
-    padding: 0;
-}
-.p-60{
-   padding: 60px 0;
+/*===========
+header
+=========*/
+.header{
+   .navbar-nav {
+     flex-direction: row;
+     
+     .line{
+        border-right: 1px solid white;
+       margin: auto;
+       height: 15px
+     }
+   }
+   .navbar-expand-md .navbar-collapse{
+     justify-content: flex-end;
+     padding-right: 140px;
+   }
+   .nav-w{
+     display: flex; 
+     justify-content: space-between;
    
-}
-.media>.pull-left {
-    margin-right: 20px;
-}
-.gap-60 {
-    clear: both;
-    height: 60px;
-}
-.gap-40 {
-    clear: both;
-    height: 40px;
-}
-.gap-30 {
-    clear: both;
-    height: 30px;
-}
-.gap-20 {
-    clear: both;
-    height: 20px;
-}
-.mb-25{
-   margin-bottom: 25px;
-}
-.mb-30{
-   margin-bottom: 30px;
-}
-.mb-60{
-   margin-bottom: 60px;
-}
-.mb-70{
-   margin-bottom: 70px;
-}
-.mb-100{
-   margin-bottom: 100px;
-}
-.mt-60{
-   margin-top: 60px;
-}
-.mrb-30 {
-    margin-bottom: 30px;
-}
-.mrb-80 {
-    margin-bottom: -80px;
-}
-.mr-70{
-   margin-right: 70px;
-}
-.mr-80{
-   margin-right: 80px;
-}
-.mr-100{
-   margin-right: 100px;
-}
-.ml-70{
-   margin-left: 70px;
-}
-.mr-70{
-   margin-right: 70px;
-}
-.mr-80{
-   margin-right: 80px;
-}
-.mr-100{
-   margin-right: 100px;
-}
-.mrt-0 {
-    margin-top: 0 !important;
-}
-.pab {
-    padding-bottom: 0;
-}
-a:focus {
-    outline: 0;
-}
-
-img.pull-left {
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-img.pull-right {
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-.unstyled {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* Dropcap */
-.dropcap {
-    font-size: 48px;
-    line-height: 60px;
-    padding: 0 7px;
-    display: inline-block;
-    float: left;
-    font-weight: 700;
-    margin: 5px 15px 5px 0;
-    position: relative;
-    text-transform: uppercase;
-}
-
+   }
+   .navbar-brand {
+      content:  url("../../images/header/logo/logo.png");
+     max-width: 254px;
+     width: 100%;
+     // background-image url("../assets/components/header/logo/logo.png")
+   }
+     
+   .navbar.navbar-dark.bg-dark {
+      background-color: bg-header;
+      
+   }
+     
+   
+     
+   .item-nav{
+      padding-right: 15px;
+     padding-left: 15px;
+     padding-top: 10px;
+     font-family: 'Raleway-Regular'
+   }
+     
+   .button-nav{
+      padding: 10px 20px; 
+     background-color: $primary-color;
+     color: black;
+     font-family: 'gt-pressura-bold';
+     font-size: 18px;
+     line-height: 24px;
+   }
+     
+   .nav {
+     padding: 30px 0px
+   }
+     
+   .router-link-active{
+      color: #9F8F6C !important
+   }
+ }
+ /*===========
+header end
+=========*/
 // btn 
 .btn{
    font-size: 16px;
@@ -323,125 +324,3 @@ img.pull-right {
    }
 }
 
-// default title set
-.section-title,
-.column-title{
-   font-family: 'pressura-bold';
-   font-weight: 500;
-   color:  $primary-color;
-   position: relative;
-   padding-bottom: 30px;
-   line-height: 52px;
-   &:after{
-      @include absolute();
-      content: '';
-      right: 0;
-      background-image: url(../images/shap/title.png);
-      @include background-content(no-repeat, center center,contain );
-      width: auto;
-      height: 10px;
-      top: auto;
-      bottom: 0;
-      left: -20px;
-   }
-   span{
-      font-size: 50px!important;
-
-   }
-   &.white{
-      color: $white-color;
-      &:after{
-         background-image: url(../images/shap/title-white.png);
-      }
-      span{
-         color: $white-color;
-      }
-   }
-}
-.column-title{
-   margin-bottom: 35px;
-   line-height: 42px;
-   text-align: left;
-   span{
-      margin-top: 0;
-   }
-   &:after{
-      right: auto;
-   }
-}
-.ts-title{
-   font-size: 24px;
-   
-}
-
-// hidden-title
-.hidden-title{
-   position: absolute;
-   left: 0;
-   top: 0;
-   bottom: 0;
-   margin: auto;
-   @include transform(rotate(180deg));
-}
-// gradient
-.gradient{
-   position: relative;
-   &:before{
-      @include absolute();
-      background-image: linear-gradient( 144deg, rgb(50,21,117) 0%, rgb(141,11,147) 51%, rgb(255,0,102) 100%, rgb(255,5,124) 100%);
-      width: 100%;
-      height: 100%;
-      content: '';
-      opacity: 0.902;
-   }
-}
-
-.overlay{
-   &:before{
-      @include absolute();
-      width: 100%;
-      height: 100%;
-      content: '';
-      background: rgba(0,0,0, .50);
-   }
-}
-
-
-/* Pagination */
-
-.pages {
-	margin-bottom: -5px;
-	text-align: center;
-	.pagination {
-      margin: 0;
-      justify-content: center;
-		li {
-         &:first-child,
-         &:last-child{
-            a{
-               border-radius: 50%;
-            }
-         }
-			a {
-				@include border-radius(50%);
-				margin-right: 8px;
-            color: #7c7c7c;
-            width: 40px;
-            height: 40px;
-            padding: 10px 0;
-
-			}
-      }
-	}
-}
-
-.pagination>.active>a,
-.pagination>.active>a:hover,
-.pagination>li>a:hover {
-	color: #fff;
-	background: #ff0763;
-	border: 1px solid transparent;
-}
-.color-primary{
-   color: #ff057c !important;
-}
