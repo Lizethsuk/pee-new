@@ -18,37 +18,49 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 /* ============================== */
 @font-face {
-  font-family: 'pressura-bold';
-  src: url("../fonts/Pressura/pressura-bold.ttf");
-  src: url("../fonts/Pressura/pressura-bold.ttf") format("truetype");
+  font-family: 'gt-pressura-bold';
+  src: url("../fonts/gt-pressura/GT-Pressura-Bold.otf");
+  src: url("../fonts/gt-pressura/GT-Pressura-Bold.otf") format("truetype");
 }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: 'gt-pressura-bold-web';
+  src: url("../fonts/gt-pressura/gt-pressura-bold-web-webfont.ttf");
+  src: url("../fonts/gt-pressura/gt-pressura-bold-web-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'gt-pressura-regular';
+  src: url("../fonts/gt-pressura/gt-pressura-regular-web-webfont.ttf");
+  src: url("../fonts/gt-pressura/gt-pressura-regular-web-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Raleway-regular';
   src: url("../fonts/raleway/Raleway-Regular.ttf");
   src: url("../fonts/raleway/Raleway-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'raleway-medium';
+  font-family: 'Raleway-medium';
   src: url("../fonts/raleway/Raleway-Medium.ttf");
   src: url("../fonts/raleway/Raleway-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: 'Raleway-bold';
   src: url("../fonts/raleway/Raleway-Bold.ttf");
   src: url("../fonts/raleway/Raleway-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'roboto-bold';
+  font-family: 'Roboto-Bold';
   src: url("../fonts/roboto/Roboto-Bold.ttf");
   src: url("../fonts/roboto/Roboto-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'roboto-regular';
+  font-family: 'Roboto-Regular';
   src: url("../fonts/roboto/Roboto-Regular.ttf");
   src: url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
 }
@@ -57,7 +69,6 @@
 ================================================== */
 body,
 p {
-  font-family: 'Quincy-bold';
   line-height: 24px;
   font-size: 110%;
   font-weight: 500;
@@ -146,8 +157,8 @@ a.read-more {
 }
 
 .body-color {
-  background: #000000;
-  color: #fff;
+  background: #FFFFFF;
+  color: #212529;
 }
 
 section,
@@ -514,11 +525,13 @@ img.pull-right {
 
 .cursos-page .nav-item .title-curso {
   font-size: 15px;
+  font-family: 'Raleway-Regular';
 }
 
 .cursos-page .nav-item .name-curso {
   font-size: 19px;
   font-weight: bold;
+  font-family: 'gt-pressura-bold';
 }
 
 .cursos-page .nav-item .encargado {
@@ -541,5 +554,173 @@ img.pull-right {
   opacity: 1;
   -webkit-margin-after: 0.2em;
           margin-block-end: 0.2em;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 0px;
+}
+
+.jumbotron .image {
+  height: 590px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .image:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.4;
+}
+
+.jumbotron .title {
+  text-transform: uppercase;
+  font-size: 55px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  width: 12em;
+  font-family: 'gt-pressura-bold';
+  line-height: 68px;
+}
+
+.jumbotron .line {
+  border-top: 3px solid #FFFFFF;
+  max-width: 50.5vw;
+  width: auto;
+  margin-left: -25rem;
+  opacity: 1 !important;
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  margin-bottom: 55px;
+}
+
+.jumbotron .title-content {
+  bottom: -3rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.date-page .text-date-responsive {
+  display: none;
+}
+
+.date-page .button-content {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.date-page .border-text {
+  border-left: 5px solid blue;
+  padding-right: 50px;
+}
+
+.date-page .vl {
+  border-left: 2px solid var(--bg-color-divider);
+  height: 100px;
+  margin-left: -20px;
+}
+
+.date-page .text-date {
+  text-align: right;
+  padding-right: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'gt-pressura-bold';
+}
+
+.date-page .section-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'gt-pressura-bold';
+}
+
+.date-page .section-1 {
+  position: absolute;
+  z-index: 2;
+  width: 50px;
+  font-size: 120px;
+  margin-right: 310px;
+  margin-top: -67px;
+  font-weight: bold;
+  line-height: 182px;
+}
+
+.date-page .section-2 {
+  font-size: 35.53px;
+  position: relative;
+  z-index: 1;
+  text-align: right;
+  width: 290px;
+  padding-right: 2px;
+  font-weight: bold;
+  height: 63px;
+  line-height: 57px;
+}
+
+.date-page .btn-secondary {
+  font-family: 'gt-pressura-bold';
+}
+
+.date-page .date-page {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.date-page .pasos-areas {
+  padding: 45px 0px;
+  color: white;
+}
+
+.date-page .content-date {
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.date-page .month {
+  font-size: 25px;
+}
+
+.date-page .number {
+  font-size: 40px;
+}
+
+.date-page .button-nav {
+  width: 316px;
+  height: 71px;
+  font-size: 29.82px;
+  font-weight: bold;
+  line-height: 37px;
+}
+
+.date-page .subtitle {
+  font-size: 39.82px;
+  line-height: 47px;
+  padding: 15px 0px 18px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.date-page .col-md-1 {
+  width: 4.33% !important;
 }
 /*# sourceMappingURL=areas.css.map */
