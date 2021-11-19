@@ -1,0 +1,40 @@
+// admini 
+
+@import 'base';
+@import 'disable';
+@import 'variable';
+@import 'mixin';
+
+.pasos-content {
+  border-color: #A69079;
+}
+.jumbotron {
+  background-image: url('../images/areas/administracion/kv_007-1.jpg');
+}
+
+.date-admi{
+  background-color: #7D6247;
+}
+.button-admi{
+  background-color:#CE920F !important ;
+}
+.section-2{
+  background-color:#CE920F !important ;
+}
+.vl {
+  border-left: 2px solid #9E8469;
+}
+.pasos-page{
+ background-color:  #7D6247
+}
+
+.icon-admi{
+  fill: #CF9111;
+  stroke: none;
+} 
+hr.admi-line {
+  background-color: #ce920f;
+  height: 5px;
+  opacity: 1 !important;
+}
+

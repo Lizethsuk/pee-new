@@ -347,6 +347,11 @@ header end
   color: #C0B170;
 }
 
+.nav {
+  background-color: #252a2d !important;
+  padding: 30px 0;
+}
+
 .body-color {
   background: white;
   color: #fff;
@@ -398,8 +403,8 @@ section {
 }
 
 .text {
-  color: #212529;
-  text-decoration: none;
+  color: #212529 !important;
+  text-decoration: none !important;
   /* no underline */
 }
 
@@ -658,12 +663,14 @@ li:nth-child(odd) {
 }
 
 .button-nav {
-  width: 316px;
   font-family: 'gt-pressura-bold';
+  padding: .375rem .75rem !important;
+  width: 316px;
   height: 71px;
   font-size: 29.82px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 37px;
+  text-transform: inherit;
 }
 
 .btn-secondary {
@@ -713,6 +720,9 @@ li:nth-child(odd) {
 }
 
 @media (max-width: 767px) {
+  .divider-content {
+    display: none;
+  }
   .text-date {
     text-align: center;
     padding-right: 0 !important;
@@ -729,37 +739,38 @@ li:nth-child(odd) {
   .day-content {
     padding-top: 20px;
   }
-}
-
-@media (max-width: 575.98px) {
-  .subtitle {
-    font-size: 25.65px;
+  .box-area {
+    height: auto;
   }
-}
-
-@media only screen and (max-width: 1700px) {
-  .section-1 {
-    width: 50px;
-    font-size: 80px;
-    margin-right: 225px;
-    margin-top: -67px;
-    font-weight: 700;
-    line-height: 182px;
+  .section-areas {
+    padding: 50px 25px;
+    margin: 0;
   }
-  .section-2 {
-    font-size: 28.53px;
+  .title-text-curso {
+    line-height: 30px;
+    font-size: 28px;
+  }
+  .line {
+    max-width: 105vw !important;
+    margin-left: -7rem !important;
+    width: auto !important;
+    margin-bottom: 30px !important;
+  }
+  .title-jumbotron {
+    font-size: 40px !important;
+    line-height: 40px !important;
+    width: auto;
+  }
+  .image {
+    min-height: 770px;
+  }
+  .title-content {
+    bottom: 0rem !important;
     position: relative;
-    z-index: 1;
-    text-align: right;
-    width: 250px !important;
-    padding-right: 10px;
-    font-weight: 700;
-    height: 63px;
-    line-height: 57px;
   }
-}
-
-@media (max-width: 767px) {
+  .col-title {
+    padding-top: 70px;
+  }
   .pasos-content {
     border-right: none;
     margin: 0;
@@ -810,6 +821,54 @@ li:nth-child(odd) {
   }
 }
 
+@media (max-width: 767px) and (max-width: 575.98px) {
+  .title-jumbotron {
+    font-size: 33px !important;
+    line-height: 35px !important;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .image {
+    height: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .button-nav {
+    font-size: 24.82px !important;
+    max-width: 273px;
+    width: 100%;
+    height: 65px;
+    line-height: 25px;
+  }
+  .section-1 {
+    width: 50px;
+    font-size: 80px;
+    margin-right: 225px;
+    margin-top: -67px;
+    font-weight: 700;
+    line-height: 182px;
+  }
+  .section-2 {
+    font-size: 28.53px;
+    position: relative;
+    z-index: 1;
+    text-align: right;
+    width: 250px !important;
+    padding-right: 10px;
+    font-weight: 700;
+    height: 63px;
+    line-height: 57px;
+  }
+  .title-content {
+    bottom: 0 !important;
+    position: relative;
+    padding: 12px 0;
+  }
+}
+
 @media (min-width: 1200px) and (max-width: 1399px) {
   .curso-content-item {
     max-width: 373px;
@@ -829,104 +888,37 @@ li:nth-child(odd) {
     max-width: 353px;
     width: 100% !important;
   }
-}
-
-@media (max-width: 767px) {
-  .box-area {
-    height: auto;
-  }
-  .section-areas {
-    padding: 50px 25px;
-    margin: 0;
-  }
-  .title-text-curso {
-    line-height: 30px;
-    font-size: 28px;
-  }
-  .line {
-    max-width: 105vw !important;
-    margin-left: -7rem !important;
-    width: auto !important;
-    margin-bottom: 30px !important;
-  }
-  .ttitle-jumbotron {
-    font-size: 40px;
-    line-height: 40px;
-    width: auto;
-  }
-  .image {
-    min-height: 770px;
-  }
-  .title-content {
-    bottom: 0rem;
-    position: relative;
-  }
-  .col-title {
-    padding-top: 70px;
-  }
-}
-
-@media (max-width: 767px) and (max-width: 575.98px) {
-  .title-jumbotron {
-    font-size: 33px !important;
-    line-height: 35px !important;
-    width: auto;
+  .pasos-content {
+    border-right: none;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .line {
-    max-width: 81vw;
-    margin-left: -10rem;
-    width: auto;
-    margin-bottom: 30px;
+    max-width: 81vw !important;
+    margin-left: -10rem !important;
+    width: auto !important;
+    margin-bottom: 30px !important;
   }
   .title-jumbotron {
     font-size: 44px !important;
-    line-height: 52px;
-    width: auto;
+    line-height: 52px !important;
+    width: auto !important;
   }
   .col-title {
     padding-top: 90px;
   }
 }
 
-.pasos-content {
-  border-color: #A69079;
-}
-
-.jumbotron {
-  background-image: url("../images/areas/administracion/kv_007-1.jpg");
-}
-
-.date-admi {
-  background-color: #7D6247;
-}
-
-.button-admi {
-  background-color: #CE920F !important;
-}
-
-.section-admi {
-  background-color: #CE920F !important;
-}
-
-.vl {
-  border-left: 2px solid #9E8469;
-}
-
-.pasos-page {
-  background-color: #7D6247;
-}
-
-.icon-admi {
-  fill: #CF9111;
-  stroke: none;
-}
-
-hr.admi-line {
-  background-color: #ce920f;
-  height: 5px;
-  opacity: 1 !important;
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .title-jumbotron {
+    font-size: 44px !important;
+    line-height: 52px !important;
+  }
+  .line {
+    max-width: 58.5vw !important;
+    margin-left: -8rem !important;
+    width: auto;
+  }
 }
 /*# sourceMappingURL=areas.css.map */
