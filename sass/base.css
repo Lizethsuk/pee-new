@@ -18,37 +18,49 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 /* ============================== */
 @font-face {
-  font-family: 'pressura-bold';
-  src: url("../fonts/Pressura/pressura-bold.ttf");
-  src: url("../fonts/Pressura/pressura-bold.ttf") format("truetype");
+  font-family: 'gt-pressura-bold';
+  src: url("../fonts/gt-pressura/GT-Pressura-Bold.otf");
+  src: url("../fonts/gt-pressura/GT-Pressura-Bold.otf") format("truetype");
 }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: 'gt-pressura-bold-web';
+  src: url("../fonts/gt-pressura/gt-pressura-bold-web-webfont.ttf");
+  src: url("../fonts/gt-pressura/gt-pressura-bold-web-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'gt-pressura-regular';
+  src: url("../fonts/gt-pressura/gt-pressura-regular-web-webfont.ttf");
+  src: url("../fonts/gt-pressura/gt-pressura-regular-web-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Raleway-regular';
   src: url("../fonts/raleway/Raleway-Regular.ttf");
   src: url("../fonts/raleway/Raleway-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'raleway-medium';
+  font-family: 'Raleway-medium';
   src: url("../fonts/raleway/Raleway-Medium.ttf");
   src: url("../fonts/raleway/Raleway-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: 'Raleway-bold';
   src: url("../fonts/raleway/Raleway-Bold.ttf");
   src: url("../fonts/raleway/Raleway-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'roboto-bold';
+  font-family: 'Roboto-Bold';
   src: url("../fonts/roboto/Roboto-Bold.ttf");
   src: url("../fonts/roboto/Roboto-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'roboto-regular';
+  font-family: 'Roboto-Regular';
   src: url("../fonts/roboto/Roboto-Regular.ttf");
   src: url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
 }
@@ -57,7 +69,6 @@
 ================================================== */
 body,
 p {
-  font-family: 'Quincy-bold';
   line-height: 24px;
   font-size: 110%;
   font-weight: 500;
@@ -146,8 +157,8 @@ a.read-more {
 }
 
 .body-color {
-  background: #000000;
-  color: #fff;
+  background: #FFFFFF;
+  color: #212529;
 }
 
 section,

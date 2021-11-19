@@ -2,83 +2,10 @@
 tab rotate 
 ===========================*/
 @media (min-width: 1200px) and (max-width: 1500px) {
-   .ts-themes{
-      padding-bottom: 40px;
-      .section-title{
-         font-size: 42px!important;
-         line-height: 42px!important;
-      }
-      
-   } 
-   .hero-area.content-left {
-      .banner-item {
-         padding: 78px 0px 0px;
-        .banner-content-wrap .banner-info{
-            margin-bottom: 60px;
-         }
-              
-         .col-resp{
-            padding: 0px!important;
-            .form-1{
-               padding: 30px 65px 30px;
-               .form-group{
-                  margin: 10px 0px;
-               }
-               .btn{
-                  font-size: 23px!important;
-                  height: 62px;
-               }
-            }
-         }
-      }
-   }
+  
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-   .hero-area.content-left {
-      .banner-item {
-        
-         .col-resp{
-            padding: 0px!important;
-            .form-1{
-               padding: 38px 65px 30px;
-               .form-group{
-                  margin: 10px 0px;
-               }
-            }
-         }
-      }
-   }
-  .ts-schedule {
-     .bloq-info{
-        p{
-           font-size: 15px!important;
-           &.pd-align{
-              margin-top: 24px!important;
-           }
-        }
-        strong{
-           font-size: 20px!important;
-           line-height: 20px!important;
-        }
-
-     }
-  }
-  .ts-themes{
-   padding-bottom: 40px;
-   .section-title{
-      font-size: 37px!important;
-      line-height: 37px!important;
-   }
-   .col-text{
-      .text-direct{
-         p{
-            font-size: 16px;
-         }
-      }
-   }
-   
-} 
- 
+  
    // header nav
    .header {
       ul.navbar-nav>li>a {
@@ -87,89 +14,9 @@ tab rotate
       }
    }
 
-   //banner
-   .banner-item .banner-content-wrap .banner-title {
-      font-size: 55px!important;
-      span{
-         font-size: 67px!important;
-      }
-   }
-   .hero-area.content-left .banner-item .banner-content-wrap .banner-info{
-      margin-bottom: 60px;
-   }
-        
+   
+   
 
-   .hero-area.centerd-item {
-      .banner-item {
-         &:after {
-            width: 500px;
-            height: 500px;
-         }
-
-         min-height: 650px;
-
-         .banner-content-wrap {
-            padding: 50px 0;
-         }
-      }
-   }
-
-   .hero-area.content-left .banner-item {
-      margin: 58px 20px 0;
-   }
-
-   //speaker
-   .ts-speaker .speaker-img {
-      width: 205px;
-      height: 205px;
-   }
-
-   .speaker-classic {
-      .ts-title {
-         font-size: 20px;
-      }
-   }
-
-   // shap img
-   .speaker-shap {
-      display: none;
-   }
-
-   h2 {
-      line-height: 28px;
-   }
-
-   .ts-map .mapouter .gmap_canvas {
-      width: 400px;
-      height: 400px;
-      ;
-   }
-
-   // ts outcome
-   .ts-single-outcome {
-      width: 210px;
-      height: 210px;
-
-      i {
-         font-size: 60px;
-         margin-bottom: 15px;
-      }
-   }
-
-   //sidebar 
-   .social-box ul li a {
-      margin-right: 0;
-   }
-
-   // post
-   .post .post-body .entry-header .entry-title {
-      font-size: 24px;
-      line-height: 28px;
-   }
-
-   .ts-blog .post .post-body .entry-header .entry-title {
-      font-size: 20px;
-   }
 
    // experience
    .ts-exp-wrap .ts-exp-content .column-title {
