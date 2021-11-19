@@ -494,6 +494,11 @@ img.pull-right {
   color: #ff057c !important;
 }
 
+.body-color {
+  background: white;
+  color: #fff;
+}
+
 .title-text-curso {
   font-size: 30px;
   padding-top: 20px;
@@ -747,5 +752,212 @@ section {
     line-height: 30px;
     font-size: 28px;
   }
+}
+
+.col-title {
+  padding-top: 190px;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  background-color: #252a2d !important;
+}
+
+.image {
+  height: 590px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.4;
+}
+
+.title-jumbotron {
+  text-transform: uppercase;
+  font-size: 55px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  width: 12em;
+  font-family: gt-pressura-bold;
+  line-height: 68px;
+}
+
+.line {
+  border-top: 3px solid white;
+  max-width: 50.5vw;
+  width: auto;
+  margin-left: -25rem;
+  opacity: 1 !important;
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  margin-bottom: 55px;
+}
+
+.title-content {
+  bottom: -3rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-g {
+  padding: 25px 0;
+  background-color: #262b2d;
+  max-width: 390px;
+}
+
+.all-btn {
+  padding: 0 35px;
+}
+
+.text-date-responsive {
+  display: none;
+}
+
+.button-content {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.border-text {
+  border-left: 5px solid blue;
+  padding-right: 50px;
+}
+
+.vl {
+  height: 100px;
+  margin-left: -20px;
+}
+
+.text-date {
+  text-align: right;
+  padding-right: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: gt-pressura-bold;
+}
+
+.section-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: gt-pressura-bold;
+}
+
+.section-1 {
+  position: absolute;
+  z-index: 2;
+  width: 50px;
+  font-size: 120px;
+  margin-right: 310px;
+  margin-top: -67px;
+  font-weight: bold;
+  line-height: 182px;
+}
+
+.section-2 {
+  font-size: 35.53px;
+  position: relative;
+  z-index: 1;
+  text-align: right;
+  width: 290px;
+  padding-right: 2px;
+  font-weight: bold;
+  height: 63px;
+  line-height: 57px;
+}
+
+.date-page {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.pasos-areas {
+  padding: 45px 0px;
+  color: white;
+}
+
+.content-date {
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.month {
+  font-size: 25px;
+}
+
+.number {
+  font-size: 40px;
+}
+
+.button-nav {
+  width: 316px;
+  height: 71px;
+  font-size: 29.82px;
+  font-weight: bold;
+  line-height: 37px;
+}
+
+.subtitle {
+  font-size: 39.82px;
+  line-height: 47px;
+  padding: 15px 0px 18px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.col-md-1 {
+  width: 4.33% !important;
+}
+
+.jumbotron {
+  background-image: url("../images/areas/administracion/kv_007-1.jpg");
+}
+
+.date-admi {
+  background-color: #7D6247;
+}
+
+.button-admi {
+  background-color: #CE920F !important;
+}
+
+.section-admi {
+  background-color: #CE920F !important;
+}
+
+.vl {
+  border-left: 2px solid #9E8469;
+}
+
+.pasos-page {
+  background-color: #7D6247;
+}
+
+.icon-admi {
+  fill: #CF9111;
+  stroke: none;
 }
 /*# sourceMappingURL=areas.css.map */
