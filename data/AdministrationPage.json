@@ -3,7 +3,6 @@
   "title2": "dirección de personas",
   "text-con": "Conferencia Informativa",
 
-
   "bgColorDividerDate": "#9E8469",
   "bgColorButtonDate": "#CE920F",
   "bgColorDate": "#7D6247",
@@ -43,6 +42,8 @@
       "linkCurso": "https://www.esan.edu.pe/pee/areas/administracion/de-la-gestion-a-la-neurogestion-en-las-organizaciones/"
     },
     {
+      "lineColorCursos": "#CF9111",
+      "bgColorCursos": "#7E6247",
       "img": "../images/areas/online.png",
       "section": "Administración",
       "curso": "Desarrollo de competencias gerenciales",
@@ -51,6 +52,8 @@
       "linkCurso": "https://www.esan.edu.pe/pee/areas/administracion/desarrollo-de-competencias-gerenciales/"
     },
     {
+      "lineColorCursos": "#CF9111",
+      "bgColorCursos": "#7E6247",
       "img": "../images/areas/online.png",
       "section": "Administración",
       "curso": "El desafío de la agilidad en las organizaciones",
@@ -59,6 +62,8 @@
       "linkCurso": "https://www.esan.edu.pe/pee/areas/administracion/el-desafio-de-la-agilidad-en-las-organizaciones/"
     },
     {
+      "lineColorCursos": "#CF9111",
+      "bgColorCursos": "#7E6247",
       "img": "../images/areas/online.png",
       "section": "Administración",
       "curso": "Gestión de cadenas de restaurantes",
@@ -67,6 +72,8 @@
       "linkCurso": "https://www.esan.edu.pe/pee/areas/administracion/gestion-de-cadenas-de-restaurantes/"
     },
     {
+      "lineColorCursos": "#CF9111",
+      "bgColorCursos": "#7E6247",
       "img": "../images/areas/online.png",
       "section": "Administración",
       "curso": "Gestión de proyectos",
@@ -75,6 +82,8 @@
       "linkCurso": "https://www.esan.edu.pe/pee/areas/administracion/gestion-de-proyectos/"
     },
     {
+      "lineColorCursos": "#CF9111",
+      "bgColorCursos": "#7E6247",
       "img": "../images/areas/online.png",
       "section": "Administración",
       "curso": "Gestionando cambios en entornos inciertos con metodologías ágiles",
@@ -83,6 +92,8 @@
       "linkCurso": "https://www.esan.edu.pe/pee/areas/administracion/gestionando-cambios-en-entornos-inciertos-con-metodologias-agiles/"
     },
     {
+      "lineColorCursos": "#CF9111",
+      "bgColorCursos": "#7E6247",
       "img": "../images/areas/online.png",
       "section": "Administración",
       "curso": "Nociones legales básicas en la gestión empresarial",
@@ -94,6 +105,7 @@
   "titleSecondCurso": "Cursos del Certificado de Dirección de Personas",
   "cursosSecond": [
     {
+      "bgColorCursos": "#7E6247",
       "lineColorCursos": "#CF9111",
       "img": "../images/areas/new-online.png",
       "section": "Dirección de personas ",
@@ -103,6 +115,8 @@
       "linkCurso": "https://www.esan.edu.pe/pee/areas/direccion-de-personas/hr-agile-recursos-humanos-y-agilidad-organizacional/"
     },
     {
+      "lineColorCursos": "#CF9111",
+      "bgColorCursos": "#7E6247",
       "img": "../images/areas/new-online.png",
       "section": "Dirección de personas",
       "curso": "Liderazgo y Dirección de personas",
@@ -111,6 +125,8 @@
       "linkCurso": "https://www.esan.edu.pe/pee/areas/direccion-de-personas/liderazgo-y-direccion-de-personas/"
     },
     {
+      "lineColorCursos": "#CF9111",
+      "bgColorCursos": "#7E6247",
       "img": "../images/areas/online.png",
       "section": "Dirección de personas",
       "curso": "Reclutamiento y Selección por Competencias",
@@ -119,6 +135,8 @@
       "linkCurso": "https://www.esan.edu.pe/pee/areas/direccion-de-personas/reclutamiento-y-seleccion-por-competencias/"
     },
     {
+      "lineColorCursos": "#CF9111",
+      "bgColorCursos": "#7E6247",
       "img": "../images/areas/online.png",
       "section": "Dirección de personas",
       "curso": "Remuneraciones y compensaciones",
@@ -127,6 +145,8 @@
       "linkCurso": "https://www.esan.edu.pe/pee/areas/direccion-de-personas/remuneracion-y-compensaciones/"
     },
     {
+      "lineColorCursos": "#CF9111",
+      "bgColorCursos": "#7E6247",
       "img": "../images/areas/online.png",
       "section": "Dirección de personas",
       "curso": "Sistemas de Evaluación del Desempeño",
@@ -135,6 +155,8 @@
       "linkCurso": "https://www.esan.edu.pe/pee/areas/direccion-de-personas/sistemas-de-evaluacion-del-desempleo-implantacion-y-gestion/"
     },
     {
+      "lineColorCursos": "#CF9111",
+      "bgColorCursos": "#7E6247",
       "img": "../images/areas/online.png",
       "section": "Dirección de personas",
       "curso": "Gestión del bienestar laboral",
