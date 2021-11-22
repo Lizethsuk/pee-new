@@ -106,11 +106,8 @@
     
     .navbar-nav {
       flex-direction: row;
-      .line{
-         border-right: 1px solid white;
-        margin: auto;
-        height: 15px
-      }
+      align-items: center;
+      
     }
    .container-home{
      padding-bottom: 90px;
@@ -229,7 +226,7 @@
  
  .nav-link {
    display: flex;
-   align-items: flex-end;
+   align-items: center;
  }
  
  .home-banner {
