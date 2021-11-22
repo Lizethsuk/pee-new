@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 	Template Name: Exhibit -  Conference & Event HTML Template
 	Author: Themewinter
@@ -39,6 +40,12 @@
   font-family: 'Raleway-regular';
   src: url("../fonts/raleway/Raleway-Regular.ttf");
   src: url("../fonts/raleway/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Raleway-Italic';
+  src: url("../fonts/raleway/Raleway-MediumItalic.ttf");
+  src: url("../fonts/raleway/Raleway-MediumItalic.ttf") format("truetype");
 }
 
 @font-face {
@@ -220,6 +227,12 @@ footer end
 /*===========
 header
 =========*/
+.header {
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
 .header .navbar-nav {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -237,7 +250,7 @@ header
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  padding-right: 140px;
+  padding-left: 140px;
 }
 
 .header .nav-w {
@@ -283,6 +296,15 @@ header
   color: #9F8F6C !important;
 }
 
+.header .dropdown-menu {
+  min-width: 20.4rem;
+  width: 100%;
+}
+
+.header .button-content {
+  padding-top: 0px;
+}
+
 /*===========
 header end
 =========*/
@@ -295,7 +317,7 @@ header end
   height: 50px;
   width: 100%;
   padding: 0 35px;
-  line-height: 50px;
+  line-height: 40px;
   border-radius: 0px;
   -webkit-border-radius: 0px;
   -ms-border-radius: 0px;
@@ -347,12 +369,80 @@ header end
   color: #C0B170;
 }
 
+@media (max-width: 1200px) {
+  .header {
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+  }
+  .header .navbar-nav .line {
+    border-top: none;
+    display: none;
+  }
+  .header .navbar-collapse {
+    padding-left: 0px !important;
+  }
+}
+
+@media (max-width: 993px) {
+  .footer .icon {
+    margin: 0 15px;
+  }
+  .footer .bv-footer-row {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .footer .correo {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer .icon {
+    margin: 0 15px;
+  }
+  .footer .bv-footer-row {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .footer .bv-footer-row .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 15px;
+  }
+  .footer .bv-footer-row .data {
+    text-align: center;
+  }
+  .footer .correo {
+    font-size: 19px;
+  }
+}
+
 /*========
 header
 
 ======*/
 .col-title {
   padding-top: 320px;
+}
+
+.col-title .line {
+  border-top: 3px solid #C0B170;
+  max-width: 50.5vw;
+  width: auto;
+  margin-left: -25rem;
+  opacity: 1 !important;
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  margin-bottom: 55px;
 }
 
 .jumbotron {
@@ -391,17 +481,6 @@ header
   color: #C0B170;
 }
 
-.line {
-  border-top: 3px solid #C0B170;
-  max-width: 50.5vw;
-  width: auto;
-  margin-left: -25rem;
-  opacity: 1 !important;
-  -webkit-margin-before: 0px;
-          margin-block-start: 0px;
-  margin-bottom: 55px;
-}
-
 .title-content {
   bottom: -3rem;
   position: relative;
@@ -418,6 +497,11 @@ header
 ===========================*/
 .header {
   background-color: #252a2d;
+}
+
+.nav {
+  background-color: #252a2d !important;
+  padding: 20px 0;
 }
 
 /*==========================
@@ -488,7 +572,7 @@ header
 .pasos-areas .subtitle-text {
   color: bg-black;
   font-size: 32px;
-  font-family: gt-pressura-bold;
+  font-family: 'gt-pressura-bold';
 }
 
 .pasos-areas .bv-example-row {
@@ -575,7 +659,6 @@ header
 
 .pasos-areas .button-text {
   font-family: 'gt-pressura-bold';
-  width: 25em;
   font-size: 18px;
   border-radius: 0px;
   background-color: #C1B170;
@@ -617,6 +700,493 @@ header
 /*======= 
   
    ======*/
+/*================
+
+  Admisión
+  ==================*/
+.pasos-areas-admi {
+  padding-right: 130px;
+  padding-left: 130px;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  max-width: 1084px;
+  width: 100%;
+}
+
+.pasos-areas-admi p, .pasos-areas-admi li {
+  font-size: 16px;
+  font-family: 'Raleway-Regular';
+}
+
+.pasos-areas-admi p, .pasos-areas-admi ul {
+  margin-bottom: 1rem;
+}
+
+.pasos-areas-admi .subtitle-table {
+  text-align: center;
+}
+
+.pasos-areas-admi .title-table {
+  font-size: 14px;
+}
+
+.pasos-areas-admi .text-columns {
+  padding-right: 25px;
+}
+
+.pasos-areas-admi .subtitle-text-three {
+  font-size: 15px;
+  font-weight: bold;
+  color: bg-black;
+}
+
+.pasos-areas-admi .subtitle-text-second {
+  font-size: 15px;
+  font-style: oblique;
+  font-weight: bold;
+  color: bg-black;
+}
+
+.pasos-areas-admi .text-explication {
+  font-size: 13px;
+  font-family: 'Raleway-Italic';
+}
+
+.pasos-areas-admi .title-text {
+  color: bg-black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  font-family: 'gt-pressura-bold';
+}
+
+.pasos-areas-admi .subtitle-text {
+  color: bg-black;
+  font-size: 20px;
+  font-family: 'Raleway-Bold';
+}
+
+.pasos-areas-admi .bv-example-row {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: justify;
+}
+
+.pasos-areas-admi textarea, .pasos-areas-admi input {
+  background-color: #DBDBDB;
+  border-radius: 0px;
+}
+
+.pasos-areas-admi textarea, .pasos-areas-admi input, .pasos-areas-admi select, .pasos-areas-admi checkbox {
+  border: 1.5px solid #252a2d;
+}
+
+.pasos-areas-admi .custom-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.pasos-areas-admi .custom-control-label {
+  margin-top: -5px;
+}
+
+.pasos-areas-admi .form-responsive {
+  display: none;
+}
+
+.pasos-areas-admi input[type=radio], .pasos-areas-admi input[type=checkbox] {
+  margin: 4px 3px 3px !important;
+  margin-top: 1px \9  !important;
+  line-height: normal !important;
+}
+
+.pasos-areas-admi .text-condiciones {
+  padding-left: 10px;
+}
+
+.pasos-areas-admi select {
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  height: 38px;
+  background-color: #dbdbdb;
+  color: #6B6B6B;
+  font-family: 'Raleway-Regular';
+}
+
+.pasos-areas-admi ::-webkit-input-placeholder {
+  color: #6B6B6B;
+  opacity: 1;
+  /* Firefox */
+  font-family: 'Raleway-Regular';
+}
+
+.pasos-areas-admi :-ms-input-placeholder {
+  color: #6B6B6B;
+  opacity: 1;
+  /* Firefox */
+  font-family: 'Raleway-Regular';
+}
+
+.pasos-areas-admi ::-ms-input-placeholder {
+  color: #6B6B6B;
+  opacity: 1;
+  /* Firefox */
+  font-family: 'Raleway-Regular';
+}
+
+.pasos-areas-admi ::placeholder {
+  color: #6B6B6B;
+  opacity: 1;
+  /* Firefox */
+  font-family: 'Raleway-Regular';
+}
+
+.pasos-areas-admi .button-content {
+  text-align: center;
+}
+
+.pasos-areas-admi .button-text {
+  font-family: 'gt-pressura-bold';
+  width: 25em;
+  font-size: 18px;
+  border-radius: 0px;
+  background-color: #C1B170;
+  border-color: #C1B170;
+  color: #252A2D;
+  height: 52px;
+  margin-top: 25px;
+}
+
+.pasos-areas-admi .conditions {
+  font-family: 'Raleway-Regular';
+}
+
+.pasos-areas-admi .access {
+  font-family: 'Raleway-Bold';
+}
+
+.pasos-areas-admi label {
+  display: inline;
+}
+
+.pasos-areas-admi input {
+  font-family: 'Raleway-Regular';
+}
+
+.pasos-areas-admi input, .pasos-areas-admi select, .pasos-areas-admi textarea, .pasos-areas-admi .conditions {
+  margin-left: 10px;
+}
+
+.pasos-areas-admi .form-content {
+  padding-top: 30px;
+  font-family: 'Raleway-Regular';
+}
+
+.pasos-areas-admi .second-subtitle {
+  background-color: #C4B076;
+}
+
+/*======= 
+
+   financiamiento
+  ==================*/
+.pasos-areas-financiamiento {
+  padding: 100px 65px;
+  max-width: 1084px;
+  width: 100%;
+}
+
+.pasos-areas-financiamiento p, .pasos-areas-financiamiento li {
+  font-size: 16px;
+  font-family: 'Raleway-Regular';
+}
+
+.pasos-areas-financiamiento p, .pasos-areas-financiamiento ul {
+  margin-bottom: 1rem;
+}
+
+.pasos-areas-financiamiento .second-subtitle {
+  background-color: #C0B170;
+  padding: 19px 25px;
+  font-family: 'gt-pressura-bold';
+  font-size: 18px;
+}
+
+.pasos-areas-financiamiento .subtitle-table {
+  text-align: center;
+}
+
+.pasos-areas-financiamiento .text-columns {
+  padding-right: 25px;
+}
+
+.pasos-areas-financiamiento .table .subtitle-table-2 {
+  margin: 5px 0px;
+  width: 100%;
+  height: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pasos-areas-financiamiento .table .vl {
+  border-right: 2px solid #252a2d;
+  height: 43px;
+}
+
+.pasos-areas-financiamiento .table .th-alternativa {
+  margin-left: 0px;
+}
+
+.pasos-areas-financiamiento .table th, .pasos-areas-financiamiento .table td {
+  border-color: #252A2D;
+  border-bottom-width: 1.6px;
+}
+
+.pasos-areas-financiamiento .table .text-final {
+  margin: 5px 0px;
+  width: 100%;
+  height: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pasos-areas-financiamiento .table .td-1, .pasos-areas-financiamiento .table .td-2 {
+  margin: 5px 0px;
+  border-right: 2px solid #252a2d;
+  width: 100%;
+  height: 43px;
+  font-size: 15px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pasos-areas-financiamiento .table hr {
+  height: 2.4px;
+  color: #252A2D;
+  opacity: 1;
+}
+
+.pasos-areas-financiamiento .table .cursos, .pasos-areas-financiamiento .table .nota-text, .pasos-areas-financiamiento .table .descount-text {
+  font-family: 'Raleway-Regular';
+}
+
+.pasos-areas-financiamiento .table .descount-text {
+  margin-left: 35px;
+  margin-bottom: 0px;
+}
+
+.pasos-areas-financiamiento .table thead {
+  padding: 10px;
+}
+
+.pasos-areas-financiamiento .table .row-table {
+  background-color: #C0B170;
+  height: 53px;
+}
+
+.pasos-areas-financiamiento .table .row-table th {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.pasos-areas-financiamiento .table .title-t-2 {
+  font-family: 'Raleway-Regular';
+}
+
+.pasos-areas-financiamiento .table .title-t-1 {
+  font-family: 'Raleway-Bold';
+}
+
+.pasos-areas-financiamiento .table .second-subtitle {
+  background-color: #C4B076;
+  font-family: 'gt-pressura-bold';
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 19px 30px;
+  font-size: 18px;
+}
+
+.pasos-areas-financiamiento .table p {
+  font-size: 24px;
+}
+
+.pasos-areas-financiamiento .table .subtitle-table {
+  text-align: center;
+}
+
+.pasos-areas-financiamiento .table .section-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.pasos-areas-financiamiento .table .title-table.gray {
+  background-color: #D8D8D8;
+}
+
+.pasos-areas-financiamiento .table .title-table.none {
+  border-bottom: none;
+}
+
+.pasos-areas-financiamiento .table .title-table .title-th {
+  margin: 5px 0px;
+  border-right: 2px solid #252A2D;
+  width: 100%;
+  height: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 10px;
+}
+
+.pasos-areas-financiamiento .table .title-table .title-th.two {
+  border-right: none;
+}
+
+.pasos-areas-financiamiento .table .subtitle-text-three {
+  font-size: 15px;
+  font-family: 'Raleway-Bold';
+  color: bg-black;
+}
+
+.pasos-areas-financiamiento .table .subtitle-text-second {
+  font-size: 15px;
+  font-style: oblique;
+  font-weight: bold;
+  color: bg-black;
+}
+
+.pasos-areas-financiamiento .table .text-explication {
+  font-size: 13px;
+  font-style: oblique;
+}
+
+.pasos-areas-financiamiento .table .title-text {
+  color: bg-black;
+  font-size: 39.82px;
+  font-family: 'gt-pressura-bold';
+  text-align: left;
+}
+
+.pasos-areas-financiamiento .table .subtitle-text {
+  color: bg-black;
+  font-size: 24px;
+  font-family: Raleway-Bold;
+}
+
+.pasos-areas-financiamiento .table .bv-example-row {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+}
+
+.pasos-areas-financiamiento .table .table > :not(caption) > * > * {
+  padding-right: 0px;
+}
+
+.pasos-areas-financiamiento .subtitle-text-three {
+  font-size: 15px;
+  font-weight: bold;
+  color: bg-black;
+}
+
+.pasos-areas-financiamiento .subtitle-text-second {
+  font-size: 15px;
+  font-style: oblique;
+  font-weight: bold;
+  color: bg-black;
+}
+
+.pasos-areas-financiamiento .text-explication {
+  font-size: 13px;
+  font-family: 'Raleway-Italic';
+}
+
+.pasos-areas-financiamiento .title-text {
+  color: bg-black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  font-family: 'gt-pressura-bold';
+}
+
+.pasos-areas-financiamiento .subtitle-text {
+  color: bg-black;
+  font-size: 20px;
+  font-family: 'Raleway-Bold';
+}
+
+.pasos-areas-financiamiento .bv-example-row {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: justify;
+}
+
+.pasos-areas-financiamiento label {
+  display: inline;
+}
+
+.pasos-areas-financiamiento input {
+  font-family: 'Raleway-Regular';
+}
+
+.pasos-areas-financiamiento input, .pasos-areas-financiamiento select, .pasos-areas-financiamiento textarea, .pasos-areas-financiamiento .conditions {
+  margin-left: 10px;
+}
+
+.pasos-areas-financiamiento .form-content {
+  padding-top: 30px;
+  font-family: 'Raleway-Regular';
+}
+
+.pasos-areas-financiamiento .second-subtitle {
+  background-color: #C4B076;
+}
+
+/*======= 
+  
+   ======*/
 .pasos-page {
   left: 0;
   bottom: 0;
@@ -625,6 +1195,11 @@ header
   color: white;
   margin: 0 auto;
   background-color: #000000;
+}
+
+.pasos-page a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .pasos-page .pdf {
@@ -654,5 +1229,93 @@ header
 
 .pasos-page .description-text {
   font-family: 'Raleway-Regular';
+}
+
+.pasos-page .icon-inter {
+  fill: #FFFFFF;
+}
+
+@media (max-width: 1200px) {
+  .jumbotron.image {
+    height: 420px;
+  }
+  .jumbotron.image .col-title {
+    padding-top: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .jumbotron {
+    background-position-y: 0px;
+    background-position-x: 50%;
+  }
+  .jumbotron.image {
+    height: 360px;
+  }
+  .jumbotron.image .col-title {
+    padding-top: 170px;
+  }
+  .jumbotron.image .col-title .title {
+    font-size: 2.4rem;
+  }
+  .jumbotron.image .col-title .line {
+    margin-left: -17rem;
+    max-width: 90vw;
+  }
+  .pasos-areas {
+    padding: 70px 70px;
+  }
+  .pasos-page {
+    max-width: 900px;
+  }
+  .pasos-page .pasos-content {
+    border-right: none;
+    height: auto;
+  }
+  .pasos-areas-financiamiento {
+    padding: 50px 115px;
+  }
+  .pasos-areas-financiamiento .title-text {
+    font-size: 26px;
+  }
+  .pasos-areas-financiamiento .table {
+    font-size: 14px !important;
+  }
+  .pasos-areas-financiamiento .table td, .pasos-areas-financiamiento .table th, .pasos-areas-financiamiento .table .td-1, .pasos-areas-financiamiento .table .td-2 {
+    padding: 4px 3px !important;
+    font-size: 13.3px !important;
+    line-height: 14.5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .jumbotron.image {
+    height: 360px;
+  }
+  .jumbotron.image .col-title {
+    padding-top: 170px;
+  }
+  .jumbotron.image .col-title .title {
+    font-size: 36px;
+  }
+  .jumbotron.image .col-title .line {
+    margin-left: -1rem;
+    max-width: 90vw;
+  }
+  .pasos-areas {
+    padding: 70px 30px;
+  }
+  .pasos-areas input, .pasos-areas select, .pasos-areas textarea, .pasos-areas .conditions {
+    margin-left: 0px;
+  }
+  .pasos-areas .form-desktop {
+    display: none !important;
+  }
+  .pasos-areas .form-responsive {
+    display: block !important;
+  }
+  .pasos-areas-financiamiento {
+    padding: 50px 35px;
+  }
 }
 /*# sourceMappingURL=internas.css.map */

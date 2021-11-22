@@ -48,6 +48,11 @@
    src: url("../fonts/raleway/Raleway-Regular.ttf") format('truetype');
  } 
  @font-face {
+   font-family: 'Raleway-Italic';
+   src:  url("../fonts/raleway/Raleway-MediumItalic.ttf");  
+   src: url("../fonts/raleway/Raleway-MediumItalic.ttf") format('truetype');
+ } 
+ @font-face {
    font-family: 'Raleway-medium';
    src:  url("../fonts/raleway/Raleway-Medium.ttf");  
    src: url("../fonts/raleway/Raleway-Medium.ttf") format('truetype');
@@ -215,18 +220,22 @@ footer end
 header
 =========*/
 .header{
+   margin: auto;
+   max-width: 1200px;
+   width: 100%;
    .navbar-nav {
      flex-direction: row;
      
      .line{
-        border-right: 1px solid white;
-       margin: auto;
-       height: 15px
+      border-right: 1px solid white;
+      margin: auto;
+      height: 15px;
+       
      }
    }
    .navbar-expand-md .navbar-collapse{
      justify-content: flex-end;
-     padding-right: 140px;
+     padding-left: 140px;
    }
    .nav-w{
      display: flex; 
@@ -270,6 +279,14 @@ header
    .router-link-active{
       color: #9F8F6C !important
    }
+   .dropdown-menu{
+      min-width: 20.4rem;
+      width: 100%;
+   }
+   .button-content{
+      padding-top: 0px;
+    }
+ 
  }
  /*===========
 header end
@@ -284,7 +301,7 @@ header end
    height: 50px;
    width: 100%;
    padding: 0 35px;
-   line-height: 50px;
+   line-height: 40px;
    @include border-radius(0px);
    @include transition();
    outline: none;
@@ -321,6 +338,84 @@ header end
    }
    &:hover{
       color: $primary-color;
+   }
+}
+
+@media (max-width: 1200px) {
+   .header{
+      margin: auto;
+      max-width: 1200px;
+      width: 100%;
+      .navbar-nav {
+        
+        .line{
+            border-top: none;
+            display: none;
+       
+          
+        }
+      }
+      .navbar-collapse{
+         padding-left: 0px!important;
+      }
+    
+    
+    }
+}
+@media (max-width: 993px) {
+   .footer{
+    
+      .icon{
+         margin: 0 15px
+      }
+     
+   .bv-footer-row{
+      padding-right: 50px;
+     padding-left: 50px;
+     padding-bottom: 40px;
+     padding-top: 40px;
+   }
+     
+  
+   
+
+     
+   .correo {
+      font-size: 19px
+   }
+  
+   }
+}
+@media (max-width: 768px) {
+   .footer{
+    
+      .icon{
+         margin: 0 15px
+      }
+     
+   .bv-footer-row{
+      padding-right: 50px;
+     padding-left: 50px;
+     padding-bottom: 40px;
+     padding-top: 40px;
+     .logo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+     }
+     .data{
+        text-align: center;
+     }
+   }
+     
+  
+   
+
+     
+   .correo {
+      font-size: 19px
+   }
+  
    }
 }
 
