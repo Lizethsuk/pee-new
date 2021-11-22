@@ -1286,6 +1286,9 @@ header
     font-size: 13.3px !important;
     line-height: 14.5px;
   }
+  .pasos-areas-admi {
+    padding: 70px 75px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1315,6 +1318,9 @@ header
     display: block !important;
   }
   .pasos-areas-financiamiento {
+    padding: 50px 35px;
+  }
+  .pasos-areas-admi {
     padding: 50px 35px;
   }
 }
