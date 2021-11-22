@@ -1,5 +1,5 @@
 
-const administraccion = "../data/AdministrationPage.json"
+const administraccion = "../data/B2bPage.json"
 
 fetch(administraccion)
   .then(function (response) {
