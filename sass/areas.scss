@@ -258,7 +258,6 @@ a {
 }
 
 
-
 .jumbotron{
   margin-bottom: 0px;
   padding: 0px;
@@ -445,7 +444,7 @@ a {
     max-width: 273px;
     width: 100%;
     height: 65px;
-    line-height: 25px;
+    line-height: 20px !important;
   }
   .section-1 {
     width: 50px;
@@ -472,10 +471,7 @@ a {
     position: relative;
     padding: 12px 0;
   }
-  // .subtitle {
-  //   font-size: 30.82px;
-  //   line-height: 27px;
-  // }
+  
 
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
