@@ -1,0 +1,42 @@
+// energiani 
+
+@import 'base';
+@import 'disable';
+@import 'variable';
+@import 'mixin';
+
+.pasos-content {
+  border-color: #FFD172;
+}
+.jumbotron {
+  background-image: url('../images/areas/energia/banner/kv.jpg');
+}
+.curso-content li {
+  background-color: #dcd2c6;
+}
+.date-energia{
+  background-color:#7D6247;
+}
+.button-energia{
+  background-color:#274668 !important ;
+}
+.section-2{
+  background-color:#476BA5 !important ;
+}
+.vl {
+  border-left: 2px solid #476BA5;
+}
+.pasos-page{
+ background-color:  #7D6247
+}
+
+.icon-energia{
+  fill: #FFD172;
+  stroke: none;
+} 
+hr.energia-line {
+  background-color: #FFD172;
+  height: 5px;
+  opacity: 1 !important;
+}
+

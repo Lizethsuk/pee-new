@@ -18,6 +18,8 @@
   "titleCurso":"Cursos del Certificado de Especialización en Gestión Estratégica y Transformación Digital B2B",
   "cursos":[
     {
+      "lineColorCursos": "#284568",
+      "bgColorCursos": "#DAE0E5",
       "img" : "../images/areas/online.png",
       "section": "B2B",
       "curso": "Customer Experience en B2B",
@@ -26,6 +28,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/b2b/customer-experience-en-b2b/"
     },
     {
+      "lineColorCursos": "#284568",
+      "bgColorCursos": "#DAE0E5",
       "img" : "../images/areas/online.png",
       "section": "B2B",
       "curso": "Estrategias de Marketing B2B",
@@ -35,6 +39,8 @@
     },
     
     {
+      "lineColorCursos": "#284568",
+      "bgColorCursos": "#DAE0E5",
       "img" : "../images/areas/online.png",
       "section": "B2B",
       "curso": "Finanzas en empresas B2B",

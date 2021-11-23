@@ -1,0 +1,42 @@
+// b2bni 
+
+@import 'base';
+@import 'disable';
+@import 'variable';
+@import 'mixin';
+
+.pasos-content {
+  border-color:#274668;
+}
+.jumbotron {
+  background-image: url('../images/areas/b2b/banner/kv.jpg');
+}
+.curso-content li {
+  background-color: #DAE0E5;
+}
+.date-b2b{
+  background-color:#476BA5;
+}
+.button-b2b{
+  background-color:#274668 !important ;
+}
+.section-2{
+  background-color:#476BA5 !important ;
+}
+.vl {
+  border-left: 2px solid #476BA5;
+}
+.pasos-page{
+ background-color:  #476BA5
+}
+
+.icon-b2b{
+  fill: #FFFFFF;
+  stroke: none;
+} 
+hr.b2b-line {
+  background-color: #476BA5;
+  height: 5px;
+  opacity: 1 !important;
+}
+

@@ -3,7 +3,7 @@
   "bgColorButtonDate":"#35B3CC",
   "bgColorDate":"#09484F",
   "lineColorCursos":"#35B2CC",
-  "bgColorCursos":"#5A7880",
+  "bgColorCursos":"#35B2CC",
   "lineColorPasos":"#84989F ",
   "bgColorPasos":"#09484F",
   "colorIcon":"marketing",
@@ -17,6 +17,8 @@
   "titleCurso":"Cursos del Certificado de Marketing",
   "cursos":[
     {
+      "lineColorCursos": "#35B2CC",
+      "bgColorCursos": "#5A7880",
       "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Customer Experience en B2B",
@@ -25,6 +27,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/b2b/customer-experience-en-b2b/"
     },
     {
+      "lineColorCursos": "#35B2CC",
+      "bgColorCursos": "#5A7880",
       "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Estrategias de Marketing B2B",
@@ -33,6 +37,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/b2b/estrategias-de-marketing-b2b/"
     },
     {
+      "lineColorCursos": "#35B2CC",
+      "bgColorCursos": "#5A7880",
       "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Finanzas para el mundo comercial",
@@ -41,6 +47,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/finanzas-para-el-mundo-comercial/"
     },
     {
+      "lineColorCursos": "#35B2CC",
+      "bgColorCursos": "#5A7880",
       "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Guerrilla marketing de bajo presupuesto: para pequeñas y medianas empresas",
@@ -49,6 +57,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/guerrilla-marketing-de-bajo-presupuesto-para-pequenas-y-medianas-empresas/"
     },
     {
+      "lineColorCursos": "#35B2CC",
+      "bgColorCursos": "#5A7880",
       "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Marketing de servicios y experiencia del cliente",
@@ -57,6 +67,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/marketing-de-servicio/"
     },
     {
+      "lineColorCursos": "#35B2CC",
+      "bgColorCursos": "#5A7880",
       "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Marketing estratégico 4.0",
@@ -65,6 +77,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/marketing-estrategico-40/"
     },
     {
+      "lineColorCursos": "#35B2CC",
+      "bgColorCursos": "#5A7880",
       "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Segmentación, targeting & posicionamiento estratégico",
@@ -76,6 +90,8 @@
   "titleSecondCurso":"Certificado de Especialización en Marketing Digital",
   "SecondCurso":[
     {
+      "lineColorCursos": "#35B2CC",
+      "bgColorCursos": "#5A7880",
       "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "E-Marketing",
@@ -84,6 +100,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/e-marketing-estrategias-de-marketing-digital/"
     },
     {
+      "lineColorCursos": "#35B2CC",
+      "bgColorCursos": "#5A7880",
       "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Psicología aplicada al marketing digital: optimizando ratios de conversión",
@@ -92,6 +110,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/psicologia-aplicada-al-marketing-digital-optimizando-ratios-de-conversion/"
     },
     {
+      "lineColorCursos": "#35B2CC",
+      "bgColorCursos": "#5A7880",
       "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Tiendas Virtuales y Comercio Electrónico",
@@ -103,6 +123,8 @@
   "titleThreeCurso":"Certificado de Especialización en Dirección de Ventas",
   "ThreeCurso":[
     {
+      "lineColorCursos": "#35B2CC",
+      "bgColorCursos": "#5A7880",
       "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Finanzas para el mundo comercial",
@@ -111,6 +133,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/finanzas-para-el-mundo-comercial/"
     },
     {
+      "lineColorCursos": "#35B2CC",
+      "bgColorCursos": "#5A7880",
       "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Fundamentos para el monitoreo efectivo del retail",
@@ -119,6 +143,8 @@
       "linkCurso": "https://www.esan.edu.pe/pee/areas/marketing/fundamentos-para-el-monitoreo-efectivo-del-retail/"
     },
     {
+      "lineColorCursos": "#35B2CC",
+      "bgColorCursos": "#5A7880",
       "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Gerencia de ventas",
@@ -127,6 +153,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/marketing/gerencia-en-ventas/"
     },
     {
+      "lineColorCursos": "#35B2CC",
+      "bgColorCursos": "#5A7880",
       "img": "../images/areas/online.png",
       "section": "Marketing",
       "curso": "Herramientas de creatividad aplicadas a la innovación comercial",
