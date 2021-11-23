@@ -1,7 +1,7 @@
 
-const administraccion = "../data/B2bPage.json"
+const b2b = "../data/B2bPage.json"
 
-fetch(administraccion)
+fetch(b2b)
   .then(function (response) {
     return response.json();
   })
@@ -20,11 +20,7 @@ function appendData(data) {
   titleText.innerHTML= '<p class="title-text-curso">' + data.titleCurso + '</p>'
   title.appendChild(titleText);
 
-  const title2 = document.getElementById("title-2");
-  var title2Text = document.createElement("div");
-  title2Text.className = "col "
-  title2Text.innerHTML= '<p class="title-text-curso">' + data.titleSecondCurso + '</p>'
-  title2.appendChild(title2Text);
+  
   for (let i = 0; i < data.cursos.length; i++) {
     var mainContainer = document.getElementById("curso-content");
     console.log(data.cursos[i].section);  
@@ -75,4 +71,6 @@ function appendData(data) {
 
 
 }
+
+
 

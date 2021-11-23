@@ -1,0 +1,42 @@
+// marketingni 
+
+@import 'base';
+@import 'disable';
+@import 'variable';
+@import 'mixin';
+
+.pasos-content {
+  border-color: #35B3CC;
+}
+.jumbotron {
+  background-image: url('../images/areas/marketing/banner/kv.jpg');
+}
+.curso-content li {
+  background-color: #d6ecf2;
+}
+.date-marketing{
+  background-color: #09484F;
+}
+.button-marketing{
+  background-color:#35B3CC !important ;
+}
+.section-2{
+  background-color:#35B3CC !important ;
+}
+.vl {
+  border-left: 2px solid #35B3CC;
+}
+.pasos-page{
+ background-color:  #09484F
+}
+
+.icon-marketing{
+  fill: #35B3CC;
+  stroke: none;
+} 
+hr.marketing-line {
+  background-color: #35B3CC;
+  height: 5px;
+  opacity: 1 !important;
+}
+

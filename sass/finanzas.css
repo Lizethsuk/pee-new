@@ -1,0 +1,470 @@
+/*
+	Template Name: Exhibit -  Conference & Event HTML Template
+	Author: Themewinter
+	Author URI: https://themeforest.net/user/tripples
+	Description: Eventor -  Conference & Event HTML Template
+	Version: 1.0
+*/
+/* Table of Content
+==================================================
+1.	Typography
+2.  Global Styles (body, link color, gap, ul, section-title, overlay etc)
+3.  Header area
+4.	Banner area
+
+	
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+/* ============================== */
+@font-face {
+  font-family: 'gt-pressura-bold';
+  src: url("../fonts/gt-pressura/GT-Pressura-Bold.otf");
+  src: url("../fonts/gt-pressura/GT-Pressura-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: 'gt-pressura-bold-web';
+  src: url("../fonts/gt-pressura/gt-pressura-bold-web-webfont.ttf");
+  src: url("../fonts/gt-pressura/gt-pressura-bold-web-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'gt-pressura-regular';
+  src: url("../fonts/gt-pressura/gt-pressura-regular-web-webfont.ttf");
+  src: url("../fonts/gt-pressura/gt-pressura-regular-web-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Raleway-regular';
+  src: url("../fonts/raleway/Raleway-Regular.ttf");
+  src: url("../fonts/raleway/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Raleway-Italic';
+  src: url("../fonts/raleway/Raleway-MediumItalic.ttf");
+  src: url("../fonts/raleway/Raleway-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Raleway-medium';
+  src: url("../fonts/raleway/Raleway-Medium.ttf");
+  src: url("../fonts/raleway/Raleway-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Raleway-bold';
+  src: url("../fonts/raleway/Raleway-Bold.ttf");
+  src: url("../fonts/raleway/Raleway-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url("../fonts/roboto/Roboto-Bold.ttf");
+  src: url("../fonts/roboto/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../fonts/roboto/Roboto-Regular.ttf");
+  src: url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+/* Typography
+================================================== */
+body,
+p {
+  line-height: 24px;
+  font-size: 110%;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Global styles
+================================================== */
+html {
+  overflow-x: hidden !important;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/*===========
+footer
+=========*/
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #6b6b6b;
+  color: white;
+}
+
+.footer .icon {
+  margin: 0 15px;
+}
+
+.footer .bv-footer-row {
+  padding-right: 130px;
+  padding-left: 130px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.footer .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 20px;
+}
+
+.footer .distrito,
+.footer .direccion,
+.footer .text-uni {
+  font-family: 'Roboto-Regular';
+}
+
+.footer .correo, .footer .web {
+  font-family: 'Roboto-Bold';
+}
+
+.footer .correo {
+  font-size: 19px;
+}
+
+.footer .web,
+.footer .text-uni,
+.footer .direccion,
+.footer .distrito {
+  font-size: 12px;
+  margin: 2px 0px;
+}
+
+.footer .web
+.text-uni
+.correo
+.direccion
+.distrito {
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+}
+
+.footer .data {
+  text-align: right;
+}
+
+.footer .column-three {
+  text-align: center;
+}
+
+/*===========
+footer end
+=========*/
+/*===========
+header
+=========*/
+.header {
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.header .navbar-nav {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header .navbar-nav .line {
+  border-right: 1px solid white;
+  margin: auto;
+  height: 15px;
+}
+
+.header .navbar-expand-md .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 140px;
+}
+
+.header .nav-w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .navbar-brand {
+  content: url("../../images/header/logo/logo.png");
+  max-width: 254px;
+  width: 100%;
+}
+
+.header .navbar.navbar-dark.bg-dark {
+  background-color: bg-header;
+}
+
+.header .item-nav {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  font-family: 'Raleway-Regular';
+}
+
+.header .button-nav {
+  padding: 10px 20px;
+  background-color: #C0B170;
+  color: black;
+  font-family: 'gt-pressura-bold';
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.header .nav {
+  padding: 30px 0px;
+}
+
+.header .router-link-active {
+  color: #9F8F6C !important;
+}
+
+.header .dropdown-menu {
+  min-width: 20.4rem;
+  width: 100%;
+}
+
+.header .button-content {
+  padding-top: 0px;
+}
+
+/*===========
+header end
+=========*/
+.btn {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  background: #C0B170;
+  height: 50px;
+  width: 100%;
+  padding: 0 35px;
+  line-height: 40px;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -ms-border-radius: 0px;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn.fill {
+  background: transparent;
+  padding: 0 25px;
+  color: #fff;
+  margin-left: 20px;
+  border: 2px solid #fff;
+}
+
+.btn.fill:hover {
+  background: #C0B170;
+  border-color: #C0B170;
+}
+
+.btn.btn-round {
+  border-radius: 36px;
+  -webkit-border-radius: 36px;
+  -ms-border-radius: 36px;
+}
+
+.btn-link {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.btn-link i {
+  margin-left: 6px;
+  position: relative;
+  top: 2px;
+}
+
+.btn-link:hover {
+  color: #C0B170;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+  }
+  .header .navbar-nav .line {
+    border-top: none;
+    display: none;
+  }
+  .header .navbar-collapse {
+    padding-left: 0px !important;
+  }
+}
+
+@media (max-width: 993px) {
+  .footer .icon {
+    margin: 0 15px;
+  }
+  .footer .bv-footer-row {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .footer .correo {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer .icon {
+    margin: 0 15px;
+  }
+  .footer .bv-footer-row {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .footer .bv-footer-row .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 15px;
+  }
+  .footer .bv-footer-row .data {
+    text-align: center;
+  }
+  .footer .correo {
+    font-size: 19px;
+  }
+}
+
+.pasos-content {
+  border-color: #051d43;
+}
+
+.jumbotron {
+  background-image: url("../images/areas/finanzas/banner/kv.jpg");
+}
+
+.curso-content li {
+  background-color: #c5d0d7;
+}
+
+.date-finanzas {
+  background-color: #8395A1;
+}
+
+.button-finanzas {
+  background-color: #051d43 !important;
+}
+
+.section-2 {
+  background-color: #051d43 !important;
+}
+
+.vl {
+  border-left: 2px solid #051d43;
+}
+
+.pasos-page {
+  background-color: #8395A1;
+}
+
+.icon-finanzas {
+  fill: #051d43;
+  stroke: none;
+}
+
+hr.finanzas-line {
+  background-color: #051d43;
+  height: 5px;
+  opacity: 1 !important;
+}
+/*# sourceMappingURL=finanzas.css.map */

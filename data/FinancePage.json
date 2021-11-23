@@ -17,6 +17,8 @@
   "titleCurso":"Cursos del Certificado de Finanzas Corporativas",
   "cursos":[
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas ",
       "curso": "Análisis de estados financieros",
@@ -25,6 +27,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/analisis-de-estados-financieros/"
     },
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas ",
       "curso": "Análisis de Riesgo Crediticio",
@@ -33,6 +37,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/analisis-de-riesgo-crediticio/"
     },
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas",
       "curso": "Análisis, modelamiento financiero y proyección de estados financieros a mediano y largo plazo",
@@ -42,6 +48,8 @@
       
     },
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas",
       "curso": "Cómo gestionar un adecuado planeamiento tributario",
@@ -50,6 +58,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/como-gestionar-un-adecuado-planeamiento-tributario/"
     },
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas",
       "curso": "Contabilidad Financiera Gerencial",
@@ -58,6 +68,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/contabilidad-financiera-gerencial/"
     },
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas",
       "curso": "Contabilidad y Finanzas para No Especialistas",
@@ -66,6 +78,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/contabilidad-y-finanzas-para-no-especialistas/"
     },
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas",
       "curso": "Estrategias financieras para la creación de valor",
@@ -74,6 +88,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/estrategias-financieras-para-la-creacion-de-valor/"
     },
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas",
       "curso": "Financiamiento para startups",
@@ -82,6 +98,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/financiamiento-para-start-ups/"
     },
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas",
       "curso": "Finanzas en empresas B2B",
@@ -90,6 +108,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/b2b/finanzas-en-empresas-b2b/"
     },
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas",
       "curso": "Finanzas para proyectos sostenibles",
@@ -98,6 +118,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/finanzas-para-proyectos-sostenibles/"
     },
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas",
       "curso": "Gestión de créditos y cobranzas",
@@ -106,6 +128,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/gestion-de-creditos-y-cobranzas/"
     },
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas",
       "curso": "Optimización de la gestión financiera y tributaria",
@@ -114,6 +138,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/optimizacion-de-la-gestion-financiera-y-tributaria/"
     },
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas",
       "curso": "Planeamiento Financiero",
@@ -122,6 +148,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/planeamiento-financiero/"
     },
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas",
       "curso": "Costos para la Gerencia",
@@ -131,8 +159,10 @@
     }
   ],
   "titleSecondCurso":"Cursos del Certificado de Especialización en Preparación y Evaluación de Proyectos",
-  "SecondCurso":[
+  "cursosSecond":[
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas ",
       "curso": "Formulación, Preparación y Evaluación de Proyectos Nuevos y Proyectos en Marcha",
@@ -141,6 +171,8 @@
       "linkCurso":"https://www.esan.edu.pe/pee/areas/finanzas/formulacion-preparacion-y-evaluacion-de-proyectos-nuevos-y-proyectos-en-marcha/"
     },
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas ",
       "curso": "Fusiones, Adquisiciones y Valorización de Empresas",
@@ -150,8 +182,10 @@
     }
   ],
   "titleThreeCurso":"Cursos del Certificado de Especialización en Banca",
-  "ThreeCurso":[
+  "threeCurso":[
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas ",
       "curso": "Análisis de Riesgo Crediticio",
@@ -161,6 +195,8 @@
     },
    
     {
+      "lineColorCursos": "#051D43",
+      "bgColorCursos": "#727E9F",
       "img" : "../images/areas/online.png",
       "section": "Finanzas",
       "curso": "Gestión de créditos y cobranzas",
