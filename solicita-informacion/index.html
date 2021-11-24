@@ -63,7 +63,7 @@
             <div class="nav mx-auto my-auto m-auto d-flex">
               <div class="pl-0 pr-0 container-fluid">
                 <header class="header header-transparent">
-                  <nav class="navbar  nav-w  navbar-dark navbar-expand-md"><a aria-current="page"
+                  <nav class="navbar  nav-w  navbar-dark navbar-expand-md"><a href="../index.html" aria-current="page"
                       class="navbar-brand router-link-exact-active router-link-active" target="_self"></a>
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
                       data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -76,23 +76,24 @@
                             id="__BVID__13__BV_toggle_"><span>Áreas</span></a>
                           <ul tabindex="-1" class="dropdown-menu dropdown-menu-right"
                             aria-labelledby="__BVID__13__BV_toggle_">
-                            <li role="presentation"><a href="#" class="dropdown-item" role="menuitem"
-                                target="_self">Administración y Dirección de personas</a></li>
-                            <li role="presentation"><a href="#" class="dropdown-item" role="menuitem"
+                            <li role="presentation"><a href="../administracion-y-direccion-de-personas.html"
+                                class="dropdown-item" role="menuitem" target="_self">Administración y Dirección de
+                                personas</a></li>
+                            <li role="presentation"><a href="../b2b.html" class="dropdown-item" role="menuitem"
                                 target="_self">Business to Business</a></li>
-                            <li role="presentation"><a href="#" class="dropdown-item" role="menuitem"
+                            <li role="presentation"><a href="../energia.html" class="dropdown-item" role="menuitem"
                                 target="_self">Energía</a></li>
-                            <li role="presentation"><a href="#" class="dropdown-item" role="menuitem"
+                            <li role="presentation"><a href="../finanzas.html" class="dropdown-item" role="menuitem"
                                 target="_self">Finanzas</a></li>
-                            <li role="presentation"><a href="#" class="dropdown-item" role="menuitem"
+                            <li role="presentation"><a href="../marketing.html" class="dropdown-item" role="menuitem"
                                 target="_self">Marketing</a></li>
-                            <li role="presentation"><a href="#" class="dropdown-item" role="menuitem"
+                            <li role="presentation"><a href="../mineria.html" class="dropdown-item" role="menuitem"
                                 target="_self">Minería</a></li>
-                            <li role="presentation"><a href="#" class="dropdown-item" role="menuitem"
+                            <li role="presentation"><a href="../salud.html" class="dropdown-item" role="menuitem"
                                 target="_self">Salud</a></li>
-                            <li role="presentation"><a href="#" class="dropdown-item" role="menuitem"
+                            <li role="presentation"><a href="../logistica.html" class="dropdown-item" role="menuitem"
                                 target="_self">Operaciones y Logística</a></li>
-                            <li role="presentation"><a href="#" class="dropdown-item" role="menuitem"
+                            <li role="presentation"><a href="../tecnologia.html" class="dropdown-item" role="menuitem"
                                 target="_self">Tecnologías de la Información</a></li>
                           </ul>
                         </li>
@@ -100,13 +101,16 @@
 
 
 
+
                         <p class="line"></p>
-                        <li class="nav-item nav-link item-nav"><a href="#" class="nav-link" target="_self">Admisión </a>
+                        <li class="nav-item nav-link item-nav"><a href="../admision/index.html" class="nav-link"
+                            target="_self">Admisión </a>
                         </li>
                         <p class="line"></p>
-                        <li class="nav-item nav-link item-nav"><a href="#" class="nav-link" target="_self">
+                        <li class="nav-item nav-link item-nav"><a href="../financiamiento/index.html" class="nav-link"
+                            target="_self">
                             Financiamento </a></li>
-                        <li class="nav-item button-content"><a href="solicita-informacion" class="nav-link"
+                        <li class="nav-item button-content"><a href="../solicita-informacion/index.html" class="nav-link"
                             target="_self"><button type="button" class="btn button-nav btn-secondary rounded-0">Solicita
                               información</button></a></li>
                       </ul>
@@ -1145,14 +1149,14 @@
 
             axios.post(
               'https://www.esanbackoffice.com/websites/products/information-request/',
-              information_request, alert('enviado'), console.log(information_request)
+              information_request, 
             )
               .then(function (response) {
                 console.log(response.data);
                 console.log(information_request)
                 if (response.data.information_requested) {
                   // Ir a la página de gracias
-                  //  window.location.href = 'https://www.esan.edu.pe/mails/prueba-nativa/2021/mba-online//gracias/';
+                  window.location.href = 'https://www.esan.edu.pe/pee/solicitud-de-informacion/gracias/';
                   informationRequest.sending = false;
                 } else {
 

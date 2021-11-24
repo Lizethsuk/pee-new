@@ -1,45 +1,50 @@
 {
-  "bgColorDividerDate":"#758791" ,
-  "bgColorButtonDate":"#57A9D1",
-  "bgColorDate":"#5D6F79",
-  "lineColorCursos":"#5C6F79",
-  "bgColorCursos":"#5C6F79",
-  "lineColorPasos":"#929BA2 ",
-  "bgColorPasos":"#5D6F79",
-  "colorIcon":"ti",
-  "title":"Tecnologías de la Información",
-  "text-con":"Conferencia Informativa",
-  "date":"06",
-  "month":"diciembre",
-  "dateText":"Conferencia",
-  "dateTextSecond" : "Informativa",
-  "buttonText":"Mira aquí el video",
-  "titleCurso":"Cursos del Certificado en Tecnologías de la Información",
-  "cursos":[
-  
+  "bgColorDividerDate": "#758791",
+  "bgColorButtonDate": "#57A9D1",
+  "bgColorDate": "#5D6F79",
+  "lineColorCursos": "#5C6F79",
+  "bgColorCursos": "#5C6F79",
+  "lineColorPasos": "#929BA2 ",
+  "bgColorPasos": "#5D6F79",
+  "colorIcon": "ti",
+  "title": "Tecnologías de la Información",
+  "text-con": "Conferencia Informativa",
+  "date": "06",
+  "month": "diciembre",
+  "dateText": "Conferencia",
+  "dateTextSecond": "Informativa",
+  "buttonText": "Mira aquí el video",
+  "titleCurso": "Cursos del Certificado en Tecnologías de la Información",
+  "cursos": [
     {
+      "bgColorCursos": "#5C6F79",
+      "lineColorPasos": "#929BA2 ",
       "img": "../images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "Agile management: aplicando scrum en equipos y otros métodos de agilidad organizacional",
       "teacher": "Arturo Valencia Castro",
       "horario": "Miércoles de 7:30 p. m. a 10:45 p. m.",
-      "linkCurso":"https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/agile-management-aplicando-scrum-en-equipos-y-otros-metodos-de-agilidad-organizacional/"
+      "linkCurso": "https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/agile-management-aplicando-scrum-en-equipos-y-otros-metodos-de-agilidad-organizacional/"
     },
     {
+      "bgColorCursos": "#5C6F79",
+      "lineColorPasos": "#929BA2 ",
       "img": "../images/areas/new-online.png",
       "section": "Tecnologías de la Información",
       "curso": "Arquitectura de soluciones con tecnologías de la información",
       "teacher": "Omar José Osorio Rodriguez",
       "horario": "Sábado de 9:00 a. m. a 12:15 p. m.",
-      "linkCurso":"https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/arquitectura-de-soluciones-con-tecnologias-de-la-informacion/"
+      "linkCurso": "https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/arquitectura-de-soluciones-con-tecnologias-de-la-informacion/"
     },
     {
+      "bgColorCursos": "#5C6F79",
+      "lineColorPasos": "#929BA2 ",
       "img": "../images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "Corporate Performance Management (CPM)",
       "teacher": "Julio Yzaguirre Pérez",
       "horario": "Viernes de 7:30 p. m. a 10:45 p. m.",
-      "linkCurso":"https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/corporate-performance-management/"
+      "linkCurso": "https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/corporate-performance-management/"
     },
     {
       "img": "../images/areas/online.png",
@@ -47,60 +52,72 @@
       "curso": "Data Science: La ciencia de los datos",
       "teacher": "Fernando Casafranca",
       "horario": "Lunes de 7:30 p. m. a 10:45 p. m.",
-      "linkCurso":"https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/gerencia-efectiva-de-las-tecnologias-de-la-informacion/"
+      "linkCurso": "https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/gerencia-efectiva-de-las-tecnologias-de-la-informacion/"
     },
     {
+      "bgColorCursos": "#5C6F79",
+      "lineColorPasos": "#929BA2 ",
       "img": "../images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "Gestión de la Ciberseguridad",
       "teacher": "Gianncarlo Gómez Morales",
       "horario": "Viernes de 7:30 p. m. a 10:45 p. m.",
-      "linkCurso":"https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/gestion-de-la-ciberseguridad/"
+      "linkCurso": "https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/gestion-de-la-ciberseguridad/"
     },
     {
+      "bgColorCursos": "#5C6F79",
+      "lineColorPasos": "#929BA2 ",
       "img": "../images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "Gestión de la innovación en entornos BANI",
       "teacher": "Eddy Morris Abarca",
       "horario": "Domingo de 9:00 a. m. a 12:15 p. m.",
-      "linkCurso":"https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/gestion-de-la-innovacion-en-entornos-bani/"
+      "linkCurso": "https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/gestion-de-la-innovacion-en-entornos-bani/"
     },
     {
+      "bgColorCursos": "#5C6F79",
+      "lineColorPasos": "#929BA2 ",
       "img": "../images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "Inteligencia de Negocios (Business Intelligence)",
       "teacher": "Richard Moarri Nohra",
       "horario": "Martes de 7:30 p. m. a 10:45 p. m.",
-      "linkCurso":"https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/inteligencia-de-negocios-business-intelligence/"
+      "linkCurso": "https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/inteligencia-de-negocios-business-intelligence/"
     },
     {
+      "bgColorCursos": "#5C6F79",
+      "lineColorPasos": "#929BA2 ",
       "img": "../images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "La convergencia cloud, analytics & mobility para las empresas",
       "teacher": "Charles Caillaux",
       "horario": "Miércoles de 7:30 p. m. a 10:45 p. m.",
-      "linkCurso":"https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/la-convergencia-cloud-analytics-mobility-para-las-empresas/"
+      "linkCurso": "https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/la-convergencia-cloud-analytics-mobility-para-las-empresas/"
     },
     {
+      "bgColorCursos": "#5C6F79",
+      "lineColorPasos": "#929BA2 ",
       "img": "../images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "Transformación Digital en las Organizaciones",
       "teacher": "Eddy Morris",
       "horario": "Miércoles de 7:30 p. m. a 10:45 p. m.",
-      "linkCurso":"https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/transformacion-digital-en-las-organizaciones/"
+      "linkCurso": "https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/transformacion-digital-en-las-organizaciones/"
     },
     {
+      "bgColorCursos": "#5C6F79",
+      "lineColorPasos": "#929BA2 ",
       "img": "../images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "Business Intelligence",
       "teacher": "Richard Moarri Nohra",
       "horario": "Martes de 7:30 p. m. a 10:45 p. m.",
-      "linkCurso":"https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/inteligencia-de-negocios-business-intelligence/"
+      "linkCurso": "https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/inteligencia-de-negocios-business-intelligence/"
     }
   ],
-  "titlePasos":"Siguientes pasos",
-  "calendatioText":"calendario",
-  "informesText":"Informes",
-  "folletoText":"folleto",
-  "admisionText":"admision"
+  "titlePasos": "Siguientes pasos",
+  "calendatioText": "calendario",
+  "informesText": "Informes",
+  "folletoText": "folleto",
+  "admisionText": "admision"
 }

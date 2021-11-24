@@ -36,7 +36,7 @@
   <!-- Template styles-->
 
   <link rel="stylesheet" href="sass/areas.css">
-  <link rel="stylesheet" href="sass/admi.css">
+  <link rel="stylesheet" href="sass/logistica.css">
   <!-- Responsive styles-->
 
 
@@ -99,7 +99,7 @@
                                 target="_self">Operaciones y Logística</a></li>
                             <li role="presentation"><a href="./tecnologia.html" class="dropdown-item" role="menuitem"
                                 target="_self">Tecnologías de la Información</a></li>
-                          </ul>                
+                          </ul>
                         </li>
 
 
@@ -137,8 +137,8 @@
         <div class="container">
           <div class="row">
             <div class="col-title col-md-7 col-lg-7 col-12">
-              <p class="title-jumbotron">Administración y</p>
-              <p class="title-jumbotron">dirección de personas</p>
+              <p class="title-jumbotron">OPERACIONES Y</p>
+              <p class="title-jumbotron"> LOGÍSTICAS</p>
               <hr class="line" />
             </div>
 
@@ -337,7 +337,28 @@
         </div>
       </div>
     </div>
+    <hr class="admi-line" />
+    <div class="cursos-page">
 
+      <div class="bv-example-row section-areas container mx-auto">
+        <div id="title-3" class="row no-gutters">
+
+        </div>
+
+
+
+        <div class="row no-gutters">
+          <div class="col pl-0 pr-0">
+            <!--lista de cursos-->
+            <ul id="curso-content-3" class="curso-content">
+
+            </ul>
+
+            <!--lista de cursos end-->
+          </div>
+        </div>
+      </div>
+    </div>
     <div>
       <div class="pasos-page">
         <div class="bv-example-row pasos-areas container">
@@ -524,7 +545,7 @@
     <!-- Javascript Files
             ================================================== -->
     <!-- initialize jQuery Library -->
-    <script src="./js/admi.js"></script>
+    <script src="./js/logistica.js"></script>
     <script src="./js/jquery.js"></script>
 
     <script src="./js/popper.min.js"></script>
@@ -580,7 +601,7 @@
             numero_de_id: "",
             telefono: "",
             cargo: "",
-            especialidad_o_concentracion: "Administración",
+            especialidad_o_concentracion: "Operaciones y Logística",
             acepta_politica_de_privacidad: 0,
             ciudad: "LIMA", // debe inicializarse, aquí; en javascript después; o, en última instancia, presentar opciones en el HTML para que el usuario elija
             programa: "PEE", // igual que *ciudad*
@@ -684,18 +705,18 @@
             var limit = informationRequest.retry_sending_times;
             var attempts_count = informationRequest.attempted_sendings_count;
             var miliseconds_delay = informationRequest.seconds_before_next_attempt * 1000;
-
             axios.post(
               'https://www.esanbackoffice.com/websites/products/information-request/',
               information_request, console.log(information_request)
             )
               .then(function (response) {
-              
+
                 if (response.data.information_requested) {
                   // Ir a la página de gracias
                   window.location.href = 'https://www.esan.edu.pe/pee/solicitud-de-informacion/gracias/';
                   informationRequest.sending = false;
-                } else {
+                }
+                else {
 
                   if (attempts_count < limit) {
                     setTimeout(

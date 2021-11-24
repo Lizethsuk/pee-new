@@ -1,0 +1,53 @@
+// admini 
+
+@import 'base';
+@import 'disable';
+@import 'variable';
+@import 'mixin';
+
+.jumbotron {
+  background-image: url('../images/areas/ti/banner/kv.jpg');
+}
+.pasos-content {
+  border-color: #758791;
+}
+.vl {
+  border-left: 2px solid #758791;
+}
+
+
+.curso-content li {
+  background-color: #dbdbdb
+}
+.date-admi , .pasos-page{
+  background-color: #5D6F79
+
+}
+.button-admi , .section-2 , hr.admi-line { 
+  background-color:#57A9D1!important ;
+
+}
+
+.icon-admi{
+  fill:  #58A9D1;
+  stroke: none;
+} 
+
+
+hr.admi-line {
+  height: 5px;
+  opacity: 1 !important;
+}
+// .pasos-page{
+//  background-color:  #295740
+// }
+
+
+
+// .section-2{
+//   background-color:#44AA6F !important ;
+// }
+
+
+
+

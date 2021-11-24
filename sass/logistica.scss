@@ -1,0 +1,52 @@
+// admini 
+
+@import 'base';
+@import 'disable';
+@import 'variable';
+@import 'mixin';
+
+.jumbotron {
+  background-image: url('../images/areas/logistica/banner/kv.jpg');
+}
+.pasos-content {
+  border-color: #537B96;
+}
+.vl {
+  border-left: 2px solid #537B96;
+}
+
+
+.curso-content li {
+  background-color: #dbdbdb
+}
+.date-admi , .pasos-page{
+  background-color: #80A0B5
+}
+.button-admi , .section-2 , hr.admi-line { 
+  background-color:#3F4474 !important ;
+
+}
+
+.icon-admi{
+  fill: #3E4472;
+  stroke: none;
+} 
+
+
+hr.admi-line {
+  height: 5px;
+  opacity: 1 !important;
+}
+// .pasos-page{
+//  background-color:  #295740
+// }
+
+
+
+// .section-2{
+//   background-color:#44AA6F !important ;
+// }
+
+
+
+
