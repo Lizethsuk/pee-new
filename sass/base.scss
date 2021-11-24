@@ -417,5 +417,21 @@ header end
    }
   
    }
+  
 }
+@media (max-width: 767px) {
+   .header{
+      .navbar-nav {
+         flex-direction: column!important;
+
+      }
+      .navbar-brand{
+         max-width: 216px;
+      }
+   }
+
+}
+
+
+
 

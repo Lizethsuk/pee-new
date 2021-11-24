@@ -119,6 +119,7 @@
          background-color: $bg-form;
          width: 100%;
          max-width: 386px;
+         padding-top: 40px;
          p {
             margin-bottom: 1px;
           }
@@ -568,8 +569,99 @@
  ts schedule end - areas
  ===========================*/
 
+ /*============================
+ .section-areas-inicio
+ ===========================*/
 
+ .section-areas-inicio {
+  background-color: black;
+  padding: 150px 0px !important;
+  .btn{
+    max-width: 385px;
+    width: 100%;
+    background-color: $primary-color;
+    color: black;
+    margin: 33px auto 0px;
+    text-align: center;
+    height: 72px;
+    font-size: 37.82px;
+    font-family: 'GT-pressura-bold';
+    line-height: 70px;
+  }
+  .container-date{
+    width: 100%;
+    border: 3px solid $primary-color;
+    max-width: 1045px;
+    width: 100%;
+    padding: 22px 0;
+    min-height: 190px;
+    .section-content{
+      padding: 50px 0 35px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      .section-1{
+        margin-right: 276px;
+        font-size: 170px;
+        margin-top: -3px;
+        margin-left: 35px;
+        color: #FFFFFF;
+        font-family: 'gt-pressura-bold';
+        font-weight: 700;
+        z-index: 2;
+        position: absolute;
+        width: 167px;
+      }
+      .section-2{
+        background-color: $primary-color;
+        font-size: 22px;
+        line-height: 35px;
+        position: relative;
+        z-index: 1;
+        text-align: right;
+        width: 300px;
+        padding-right: 10px;
+        font-weight: 700;
+        height: 50px;
+        .init-date{
+          top: -44px;
+          position: relative;
+          right: 0;
+          text-align: left;
+          width: 140px;
+          margin-right: 0;
+          margin-left: auto;
+          font-family: 'gt-pressura-bold';
+          font-size: 28.5px;
+          line-height: 44px;
+          span{
+            color: #FFFFFF;
+            top: -20px;
+          }
 
+        }
+      }
+    }
+    .contact{
+      border-left: 2px solid #FFFFFF;
+      .contact-container{
+        max-width: 380px;
+        color: #fff;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 40px;
+        text-align: left;
+        h5{
+          font-size: 24px;
+    font-family: 'Raleway-Regular';
+        }
+      }
+    }
+  }
+}
+ /*============================
+ .section-areas-inicio end
+ ===========================*/
 /*============================
  /*------------rankings-------------*/
 
@@ -649,10 +741,6 @@
 // Exprience 
 =====================*/
 
-@media(max-width:767px){
-  
-}
-
 
 /*------------back to top-------------*/
 
@@ -663,10 +751,403 @@
     padding-left: 25px;
     margin: 0px auto;
   }
+  .header {
+    padding:  30px 0px 60px ;
+    .navbar-brand{
+      max-width: 219px;
+    }
+    .button-nav{
+      max-width: 300px;
+      width: 100%;
+      font-size: 14px;
+      padding: 10px 2px;
+      line-height: 15px;
+    }
+    
+
+  }
+  .hello{
+    h2{
+      font-size: 29px;
+    }
+    .container-home{
+      .col-form{
+        justify-content: center;
+      }
+    }
+    
+  }
+
+  .section-areas-inicio {
+    padding: 85px 0px !important;
+    .btn{
+      height: 72px;
+      font-size: 35.82px;
+    }
+    .container-date{
+      .section-content{
+        padding: 50px 0 35px;
+        .section-1{
+          margin-right: 276px;
+          font-size: 130px;
+          margin-top: -3px;
+          margin-left: 107px;
+          width: 167px;
+        }
+        .section-2{
+          font-size: 22px;
+          line-height: 35px;
+          width: 233px;
+          padding-right: 1px;
+          .init-date{
+            top: -44px;
+            position: relative;
+            right: 0;
+            text-align: left;
+            width: 127px;
+            margin-right: 0;
+            margin-left: auto;
+            font-size: 28.5px;
+            line-height: 44px;
+            span{
+              color: #FFFFFF;
+              top: -20px;
+            }
+  
+          }
+        }
+      }
+      .contact{
+        border-left: 2px solid #FFFFFF;
+        .contact-container{
+          max-width: 380px;
+          color: #fff;
+          width: 100%;
+          margin-left: 0;
+          padding-left: 40px;
+          text-align: left;
+          h5{
+            font-size: 19.5px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 767px) {
+  .header{
+    padding:  20px 0px 40px ;
+  }
+  .hello{
+    .home-banner{
+      h1{
+        font-size: 50px;
+      }
+      h2{
+        font-size: 29px;
+        line-height: 25px;
+      }
+      .list-title{
+        li{
+          font-size: 20px;
+        }
+      }
+      .section-content2{
+        .section-1{
+          font-size: 110px;
+        }
+        .init-date{
+          width: 124px;
+        }
+      }
+    }
+    .container-home{
+      .col-form{
+        justify-content: center;
+      }
+    }
+    
+  }
+  .ts-schedule{
+    h3{
+      font-size: 33.5px;
+      line-height: 31px;
+    }
+    .flip-card-front{
+      h2{
+        font-size: 25px;
+        line-height: 25px;
+      }
+      a{
+        padding:  0px !important
+      }
+    }
+    .flip-card-back{
+      h2{
+        font-size: 25px;
+        line-height: 22px;
+      }
+      a{
+        padding:  0px !important
+      }
+    }
+  }
+  .s-ventajas{
+    h3{
+      font-size: 30.5px;
+      line-height: 30px;
+    }
+    p{
+      font-size: 21.5px;
+      line-height: 22px;
+    }
+    img{
+      max-width: 280px!important;
+    }
+  }
+  .s-certificado{
+    h3{
+      font-size: 30.5px;
+      line-height: 30px;
+    }
+    p{
+      font-size: 21.5px;
+      line-height: 22px;
+    }
+    .box-option{
+      height: 200px!important;
+      width: 200px!important;
+    }
+  }
+  .sect-rankings{
+    h1{
+      font-size: 30.5px;
+      line-height: 30px;
+      margin-bottom: 35px;
+    }
 
+    
+  }
+  .section-areas-inicio{
+    padding: 90px 0!important;
+    .container-date{
+      .section-content{
+        .section-1{
+          margin-right: 276px;
+          font-size: 161px;
+          margin-top: -3px;
+          margin-left: 90px;
+          width: 167px;
+        }
+        .section-2{
+          font-size: 22px;
+          line-height: 35px;
+          width: 300px;
+          padding-right: 10px;
+          font-weight: 700;
+          height: 50px;
+          .init-date{
+            top: -44px;
+            right: 0;
+            text-align: left;
+            width: 140px;
+            margin-right: 0;
+            margin-left: auto;
+            font-size: 28.5px;
+            line-height: 44px;
+            span{
+              color: #FFFFFF;
+              top: -20px;
+            }
+  
+          }
+        }
+      }
+      .contact{
+        border-left: none!important;
+        .contact-container{
+          max-width: 380px;
+          color: #fff;
+          width: 100%;
+          margin: auto;
+          padding-left: 18px;
+          text-align: left;
+          h5{
+            font-size: 24px;
+      font-family: 'Raleway-Regular';
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 375px) {
+ 
+  .hello{
+    .home-banner{
+      h1{
+        font-size: 50px;
+      }
+      h2{
+        font-size: 27px;
+        line-height: 23px;
+      }
+    
+      .section-content2{
+        .section-1{
+          font-size: 108px;
+        }
+        .section-2{
+          height: 55px;
+          .init-date{
+            width: 86px;
+            top: 5px;
+            line-height: 20px;
+            span{
+              font-size: 23.5px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+    .container-home{
+      .col-form{
+        justify-content: center;
+      }
+    }
+    
+  }
+  .ts-schedule{
+    h3{
+      font-size: 30px;
+      line-height: 29px;
+    }
+    .flip-card-front{
+      h2{
+        font-size: 25px;
+        line-height: 25px;
+      }
+      a{
+        padding:  0px !important
+      }
+    }
+  }
+  .s-ventajas{
+    h3{
+      font-size: 29px;
+      line-height: 29px;
+    }
+    p{
+      font-size: 16.2px!important;
+      line-height: 22px;
+    }
+    img{
+      max-width: 205px!important;
+    }
+  }
+  .s-certificado{
+    h3{
+      font-size: 29px;
+      line-height: 29px;
+    }
+    p{
+      font-size: 16.2px!important;
+      line-height: 22px;
+    }
+  }
+  .section-areas-inicio{
+    padding: 90px 0!important;
+    .container-date{
+      .section-content{
+        .section-1{
+          margin-right: 276px;
+          font-size: 125px;
+          margin-top: -3px;
+          margin-left: 142px;
+          width: 167px;
+        }
+        .section-2{
+          font-size: 22px;
+          line-height: 35px;
+          width: 265px;
+          padding-right: 10px;
+          font-weight: 700;
+          height: 50px;
+          .init-date{
+            top: -44px;
+            right: -22px;
+            text-align: left;
+            width: 140px;
+            margin-right: 0;
+            margin-left: auto;
+            font-size: 28.5px;
+            line-height: 44px;
+            span{
+              color: #FFFFFF;
+              top: -20px;
+            }
+  
+          }
+        }
+      }
+      .contact{
+        .contact-container{
+          max-width: 260px;
+          color: #fff;
+          width: 100%;
+          margin: auto;
+          padding-left: 18px;
+          text-align: left;
+          h5{
+            font-size: 18.1px;
+          }
+          img{
+            width: 32px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 325px) {
+ 
+  .hello{
+    .home-banner{
+      h1{
+        font-size: 50px;
+      }
+      h2{
+        font-size: 24px;
+        line-height: 21px;
+      }
+      .h4{
+        font-size: 21px;
+      }
+      .section-content2{
+        .section-1{
+          font-size: 87px;
+        }
+        .section-2{
+          height: 55px;
+          .init-date{
+            width: 60px;
+            top: 5px;
+            line-height: 20px;
+            span{
+              font-size: 23.5px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+    
+  }
+  
 }
 
 /*------------ventajas-------------*/
@@ -744,11 +1225,7 @@
 
 
 
-@media (max-width: 767px) {
- 
- 
- 
-}
+
 
 
 

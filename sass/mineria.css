@@ -425,6 +425,18 @@ header end
   }
 }
 
+@media (max-width: 767px) {
+  .header .navbar-nav {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .header .navbar-brand {
+    max-width: 216px;
+  }
+}
+
 .jumbotron {
   background-image: url("../images/areas/mineria/banner/kv1.jpg");
 }
