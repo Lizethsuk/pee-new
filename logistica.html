@@ -99,7 +99,7 @@
                                 target="_self">Operaciones y Logística</a></li>
                             <li role="presentation"><a href="./tecnologia.html" class="dropdown-item" role="menuitem"
                                 target="_self">Tecnologías de la Información</a></li>
-                          </ul>                
+                          </ul>
                         </li>
 
 
@@ -705,19 +705,18 @@
             var limit = informationRequest.retry_sending_times;
             var attempts_count = informationRequest.attempted_sendings_count;
             var miliseconds_delay = informationRequest.seconds_before_next_attempt * 1000;
-
             axios.post(
               'https://www.esanbackoffice.com/websites/products/information-request/',
-              information_request, alert('enviado'), console.log(information_request)
+              information_request, console.log(information_request)
             )
               .then(function (response) {
-                console.log(response.data);
-                console.log(information_request)
+
                 if (response.data.information_requested) {
                   // Ir a la página de gracias
-                  //  window.location.href = 'https://www.esan.edu.pe/mails/prueba-nativa/2021/mba-online//gracias/';
+                  window.location.href = 'https://www.esan.edu.pe/pee/solicitud-de-informacion/gracias/';
                   informationRequest.sending = false;
-                } else {
+                }
+                else {
 
                   if (attempts_count < limit) {
                     setTimeout(
