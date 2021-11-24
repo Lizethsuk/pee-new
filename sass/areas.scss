@@ -121,7 +121,12 @@ a {
 .subtitle {
   font-family: 'gt-pressura-bold';
   padding-top :20px;
+
 } 
+.subtitle a {
+  color: white;
+  text-decoration: none !important; /* no underline */
+}
 .title{
   text-align :center;
   font-size :30px;
@@ -136,10 +141,10 @@ a {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: var(--bg-color);
+
 }
 .description-text {
-  font-family : Raleway-Regular;
+  font-family : 'Raleway-Regular';
   font-size:1em
 }
 .pasos-areas {
@@ -322,7 +327,7 @@ a {
     display: none;
   }
   .text-date{
-    text-align: center;
+    text-align: center !important;
     padding-right: 0!important; 
   } 
   .text-date-desktop {
@@ -435,6 +440,10 @@ a {
 
 
 @media only screen and (max-width: 1700px) {
+  .subtitle{
+    // font-size: 30.82px !important;
+    line-height: 27px !important;
+  }
   .image {
     height: auto;
     position: relative;
@@ -442,30 +451,31 @@ a {
     background-size: cover;
   }  
   .button-nav {
-    max-width: 273px;
-    width: 100%;
-    height: 65px;
-    line-height: 20px !important;
+    font-size: 24.82px !important;
+    max-width: 273px !important;
+    width: 100% !important;
+    height: 65px !important;
+    // line-height: 20px !important;
   }
   .section-1 {
-    width: 50px;
-    font-size: 80px;
-    margin-right: 225px;  
-    margin-top: -67px;
-    font-weight: 700;
-    line-height: 182px;
+    width: 50px !important;
+    font-size: 80px !important;
+    margin-right: 225px !important;  
+    margin-top: -67px !important;
+    font-weight: 700 !important;
+    line-height: 182px !important;
   }
   .section-2 {
     // background-color: var(--bg-color-button);
-    font-size: 28.53px;
-    position: relative;
-    z-index: 1;
-    text-align: right;
+    font-size: 28.53px !important;
+    position: relative !important;
+    z-index: 1 !important;
+    text-align: right !important;
     width: 250px !important;
-    padding-right: 10px;
-    font-weight: 700;
-    height: 63px;
-    line-height: 57px;
+    padding-right: 10px !important;
+    font-weight: 700 !important;
+    height: 63px !important;
+    line-height: 57px !important;
   }
   .title-content {
     bottom: 0 !important;
@@ -494,6 +504,12 @@ a {
   }
   .pasos-content {
     border-right: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .button-nav {
+    line-height: 20px !important;
   }
 }
 
