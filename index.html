@@ -82,7 +82,8 @@
             <div class="nav mx-auto my-auto m-auto d-flex">
               <div class="pl-0 pr-0 container-fluid">
                 <header class="header header-transparent">
-                  <nav class="navbar  nav-w  navbar-dark navbar-expand-md"><a href="/index.html" aria-current="page"
+                  <nav class="navbar  nav-w  navbar-dark navbar-expand-md">
+                    <a href="../index.html" aria-current="page"
                       class="navbar-brand router-link-exact-active router-link-active" target="_self"></a>
                       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
                       data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -484,6 +485,15 @@
                             Acepto las <a href="#politica-de-proteccion-de-datos" data-toggle="modal"
                               data-target="#politica-de-proteccion-de-datos">condiciones de tratamiento para mis datos
                               personales</a>.
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" v-model='payload.acepta_politica_de_privacidad'
+                            id="acepta_politica_de_privacidad" required="required" class="form-check-input"> <label
+                            for="gridCheck" class="form-check-label">
+                            Autorizo a UESAN a utilizar mis datos para el envio de publicidad sobre los
+                            servicios educativos y actividades que brinda, así como la realización de
+                            encuestas de satisfacción al cliente.
                           </label>
                         </div>
 
@@ -1172,14 +1182,14 @@
 
             axios.post(
               'https://www.esanbackoffice.com/websites/products/information-request/',
-              information_request, alert('enviado'), console.log(information_request)
+              information_request,  console.log(information_request)
             )
               .then(function (response) {
                 console.log(response.data);
                 console.log(information_request)
                 if (response.data.information_requested) {
                   // Ir a la página de gracias
-                  //  window.location.href = 'https://www.esan.edu.pe/mails/prueba-nativa/2021/mba-online//gracias/';
+                   window.location.href = 'https://www.esan.edu.pe/pee/solicitud-de-informacion/gracias/';
                   informationRequest.sending = false;
                 } else {
 

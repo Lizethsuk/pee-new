@@ -1,5 +1,5 @@
 
-const energia = "../data/energy.json"
+const energia = "https://www.esan.edu.pe/mails/prueba-nativa/2021/pee-landing/data/energy.json"
 
 fetch(energia)
   .then(function (response) {

@@ -24,7 +24,7 @@
     {
       "lineColorCursos": "#CF9111",
       "bgColorCursos": "#7E6247",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Administración",
       "curso": "Administración Gerencial: El Proceso Administrativo y sus Herramientas Claves de Gestión",
       "teacher": "Enrique Louffat Olivares",
@@ -34,7 +34,7 @@
     {
       "lineColorCursos": "#CF9111",
       "bgColorCursos": "#7E6247",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Administración ",
       "curso": "De la gestión a la neurogestión en las organizaciones",
       "teacher": "Adriana Rosario Delgado Luján",
@@ -44,7 +44,7 @@
     {
       "lineColorCursos": "#CF9111",
       "bgColorCursos": "#7E6247",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Administración",
       "curso": "Desarrollo de competencias gerenciales",
       "teacher": "Lydia Arbaiza Fermini",
@@ -54,7 +54,7 @@
     {
       "lineColorCursos": "#CF9111",
       "bgColorCursos": "#7E6247",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Administración",
       "curso": "El desafío de la agilidad en las organizaciones",
       "teacher": "Yolanda Valle Ramella | Gustavo Ortega Ubillús",
@@ -64,7 +64,7 @@
     {
       "lineColorCursos": "#CF9111",
       "bgColorCursos": "#7E6247",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Administración",
       "curso": "Gestión de cadenas de restaurantes",
       "teacher": "Andrés García Uribe | Gabriel Levano Muñoz",
@@ -74,7 +74,7 @@
     {
       "lineColorCursos": "#CF9111",
       "bgColorCursos": "#7E6247",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Administración",
       "curso": "Gestión de proyectos",
       "teacher": "Peter Yamakawa Tsuja",
@@ -84,7 +84,7 @@
     {
       "lineColorCursos": "#CF9111",
       "bgColorCursos": "#7E6247",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Administración",
       "curso": "Gestionando cambios en entornos inciertos con metodologías ágiles",
       "teacher": "Jessica Alzamora Ruiz",
@@ -94,7 +94,7 @@
     {
       "lineColorCursos": "#CF9111",
       "bgColorCursos": "#7E6247",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Administración",
       "curso": "Nociones legales básicas en la gestión empresarial",
       "teacher": "Patricia García Santillan Camacho",
@@ -107,7 +107,7 @@
     {
       "bgColorCursos": "#7E6247",
       "lineColorCursos": "#CF9111",
-      "img": "../images/areas/new-online.png",
+      "img": "./images/areas/new-online.png",
       "section": "Dirección de personas ",
       "curso": "HR Agile: recursos humanos y agilidad organizacional",
       "teacher": "Guillermo Defilippi Rodríguez",
@@ -117,7 +117,7 @@
     {
       "lineColorCursos": "#CF9111",
       "bgColorCursos": "#7E6247",
-      "img": "../images/areas/new-online.png",
+      "img": "./images/areas/new-online.png",
       "section": "Dirección de personas",
       "curso": "Liderazgo y Dirección de personas",
       "teacher": "Kety Jauregui",
@@ -127,7 +127,7 @@
     {
       "lineColorCursos": "#CF9111",
       "bgColorCursos": "#7E6247",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Dirección de personas",
       "curso": "Reclutamiento y Selección por Competencias",
       "teacher": "Susy Quevedo García",
@@ -137,7 +137,7 @@
     {
       "lineColorCursos": "#CF9111",
       "bgColorCursos": "#7E6247",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Dirección de personas",
       "curso": "Remuneraciones y compensaciones",
       "teacher": "Nazaret Abad Zarco",
@@ -147,7 +147,7 @@
     {
       "lineColorCursos": "#CF9111",
       "bgColorCursos": "#7E6247",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Dirección de personas",
       "curso": "Sistemas de Evaluación del Desempeño",
       "teacher": "Letty Cossi Guerrero",
@@ -157,7 +157,7 @@
     {
       "lineColorCursos": "#CF9111",
       "bgColorCursos": "#7E6247",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Dirección de personas",
       "curso": "Gestión del bienestar laboral",
       "teacher": "Kety Jáuregui Machuca | Juan Palomino Baldeón",

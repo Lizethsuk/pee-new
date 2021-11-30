@@ -20,7 +20,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Administración de la demanda y plan de compras",
       "teacher": "Max Vargas Sánchez",
@@ -30,7 +30,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Evaluación del desempeño logístico: uso de indicadores",
       "teacher": "Armando Valdés Garrido Lecca",
@@ -40,7 +40,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Forecasting, Advanced Planning y Scheduling y Optimización de la Cadena de Abastecimiento",
       "teacher": "Christian Ramírez",
@@ -50,7 +50,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Gerencia de compras y abastecimiento",
       "teacher": "Victor Tateishi Saito",
@@ -60,7 +60,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Gerencia de operaciones",
       "teacher": "Aldo de la Cruz | Aldo Bresani Torres",
@@ -70,7 +70,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Gerencia Industrial Lean",
       "teacher": "Fernando Maradiegue Tuesta",
@@ -80,7 +80,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Gestión de Optimización de Centro de Distribución y Transporte",
       "teacher": "David Gallardo Yaya",
@@ -90,7 +90,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Logística naviera",
       "teacher": "Carlos Figueredo",
@@ -100,7 +100,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Supply Chain Management",
       "teacher": "Germán Velásquez Salazar",
@@ -110,7 +110,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Técnicas prácticas de calidad para elevar la rentabilidad en la empresa",
       "teacher": "Aldo Bresani Torres",
@@ -120,7 +120,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Lean thinking & tools para procesos de bienes y servicios",
       "teacher": "Freddy Alvarado Vargas",
@@ -130,7 +130,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Técnicas prácticas de calidad para elevar la rentabilidad en la empresa",
       "teacher": "Aldo Bresani Torres",
@@ -143,7 +143,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Análisis cuantitativo para la toma de decisiones",
       "teacher": "Tomás Minauro Latorre",
@@ -153,7 +153,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Herramientas de BPMN para el Modelamiento y Simulación de Procesos",
       "teacher": "José Díaz León",
@@ -163,7 +163,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Implementación ágil de procesos con design thinking y gestionada con Scrum",
       "teacher": "Gustavo Ortega Ubillús",
@@ -173,7 +173,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Indicadores (KPI's) y OKR's para la gestión de procesos",
       "teacher": "Luis Fernández Aguilar",
@@ -183,7 +183,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/new-online.png",
+      "img": "./images/areas/new-online.png",
       "section": "Operaciones y Logística",
       "curso": "Técnicas prácticas de calidad para elevar la rentabilidad en la empresa",
       "teacher": "Aldo Bresani Torres",
@@ -196,7 +196,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Gestión de proyectos",
       "teacher": "Peter Yamakawa Tsuja",
@@ -206,7 +206,7 @@
     {
       "lineColorCursos": "#004863",
       "bgColorCursos": "#80A0B6",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Operaciones y Logística",
       "curso": "Herramientas para la Gerencia de Proyectos",
       "teacher": "Luis Madrid Guerra",

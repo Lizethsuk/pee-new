@@ -19,7 +19,7 @@
     {
       "lineColorCursos": "#35B2CC",
       "bgColorCursos": "#5A7880",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Marketing",
       "curso": "Customer Experience en B2B",
       "teacher": "Manuel Ramos Soldevilla",
@@ -29,7 +29,7 @@
     {
       "lineColorCursos": "#35B2CC",
       "bgColorCursos": "#5A7880",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Marketing",
       "curso": "Estrategias de Marketing B2B",
       "teacher": "Jorge Merzthal Toranzo",
@@ -39,7 +39,7 @@
     {
       "lineColorCursos": "#35B2CC",
       "bgColorCursos": "#5A7880",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Marketing",
       "curso": "Finanzas para el mundo comercial",
       "teacher": "Lorena Calderón Pimentel",
@@ -49,7 +49,7 @@
     {
       "lineColorCursos": "#35B2CC",
       "bgColorCursos": "#5A7880",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Marketing",
       "curso": "Guerrilla marketing de bajo presupuesto: para pequeñas y medianas empresas",
       "teacher": "Walter Palomino Tamayo",
@@ -59,7 +59,7 @@
     {
       "lineColorCursos": "#35B2CC",
       "bgColorCursos": "#5A7880",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Marketing",
       "curso": "Marketing de servicios y experiencia del cliente",
       "teacher": "Otto Regalado Pezúa",
@@ -69,7 +69,7 @@
     {
       "lineColorCursos": "#35B2CC",
       "bgColorCursos": "#5A7880",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Marketing",
       "curso": "Marketing estratégico 4.0",
       "teacher": "José Luis Wakabayashi Muroya",
@@ -79,7 +79,7 @@
     {
       "lineColorCursos": "#35B2CC",
       "bgColorCursos": "#5A7880",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Marketing",
       "curso": "Segmentación, targeting & posicionamiento estratégico",
       "teacher": "Christian Aste León",
@@ -92,7 +92,7 @@
     {
       "lineColorCursos": "#35B2CC",
       "bgColorCursos": "#5A7880",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Marketing",
       "curso": "E-Marketing",
       "teacher": "Sergio Cuervo",
@@ -102,7 +102,7 @@
     {
       "lineColorCursos": "#35B2CC",
       "bgColorCursos": "#5A7880",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Marketing",
       "curso": "Psicología aplicada al marketing digital: optimizando ratios de conversión",
       "teacher": "Miguel Palacios",
@@ -112,7 +112,7 @@
     {
       "lineColorCursos": "#35B2CC",
       "bgColorCursos": "#5A7880",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Marketing",
       "curso": "Tiendas Virtuales y Comercio Electrónico",
       "teacher": "Daniel Chicoma Lúcar",
@@ -125,7 +125,7 @@
     {
       "lineColorCursos": "#35B2CC",
       "bgColorCursos": "#5A7880",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Marketing",
       "curso": "Finanzas para el mundo comercial",
       "teacher": "Lorena Calderón Pimentel",
@@ -135,7 +135,7 @@
     {
       "lineColorCursos": "#35B2CC",
       "bgColorCursos": "#5A7880",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Marketing",
       "curso": "Fundamentos para el monitoreo efectivo del retail",
       "teacher": "Christian Saksanian",
@@ -145,7 +145,7 @@
     {
       "lineColorCursos": "#35B2CC",
       "bgColorCursos": "#5A7880",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Marketing",
       "curso": "Gerencia de ventas",
       "teacher": "José Luis Wakabayashi",
@@ -155,7 +155,7 @@
     {
       "lineColorCursos": "#35B2CC",
       "bgColorCursos": "#5A7880",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Marketing",
       "curso": "Herramientas de creatividad aplicadas a la innovación comercial",
       "teacher": "Carlos Urbina Rivera",

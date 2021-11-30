@@ -20,7 +20,7 @@
     {
       "lineColorCursos": "#7E6247",
       "bgColorCursos": "#BFAF9D",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Energía",
       "curso": "Biocombustibles y energías alternativas. Los combustibles fósiles deciden reinventarse",
       "teacher": "Victor Fernández Guzmán",
@@ -30,7 +30,7 @@
     {
       "lineColorCursos": "#7E6247",
       "bgColorCursos": "#BFAF9D",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Energía",
       "curso": "Gestión de sistemas de compensación y retribución total en empresas del sector minería y energía",
       "teacher": "Martín Vergara Pinto",
@@ -40,7 +40,7 @@
     {
       "lineColorCursos": "#7E6247",
       "bgColorCursos": "#BFAF9D",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Energía",
       "curso": "Planificación energética",
       "teacher": "Luis Espinoza Quiñonez",

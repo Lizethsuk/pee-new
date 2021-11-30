@@ -19,7 +19,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas ",
       "curso": "Análisis de estados financieros",
       "teacher": "Marita Chang Olivas",
@@ -29,7 +29,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas ",
       "curso": "Análisis de Riesgo Crediticio",
       "teacher": "Arturo García Villacorta",
@@ -39,7 +39,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas",
       "curso": "Análisis, modelamiento financiero y proyección de estados financieros a mediano y largo plazo",
       "teacher": "Carlos Aguirre Gamarra ",
@@ -50,7 +50,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas",
       "curso": "Cómo gestionar un adecuado planeamiento tributario",
       "teacher": "Reynaldo Moquillaza Orellana",
@@ -60,7 +60,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas",
       "curso": "Contabilidad Financiera Gerencial",
       "teacher": "Luis Ramos Rodríguez",
@@ -70,7 +70,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas",
       "curso": "Contabilidad y Finanzas para No Especialistas",
       "teacher": "Patricia Gonzáles",
@@ -80,7 +80,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas",
       "curso": "Estrategias financieras para la creación de valor",
       "teacher": "Alfredo Mendiola Cabrera",
@@ -90,7 +90,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas",
       "curso": "Financiamiento para startups",
       "teacher": "Luis Felipe Oliva Díaz",
@@ -100,7 +100,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas",
       "curso": "Finanzas en empresas B2B",
       "teacher": "Alfredo Mendiola Cabrera | Carlos Aguirre Gamarra",
@@ -110,7 +110,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas",
       "curso": "Finanzas para proyectos sostenibles",
       "teacher": "Walther Reátegui Vela",
@@ -120,7 +120,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas",
       "curso": "Gestión de créditos y cobranzas",
       "teacher": "Arturo García Villacorta",
@@ -130,7 +130,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas",
       "curso": "Optimización de la gestión financiera y tributaria",
       "teacher": "Marita Chang Olivas | Carlos Chirinos Sota",
@@ -140,7 +140,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas",
       "curso": "Planeamiento Financiero",
       "teacher": "Manuel Acevedo",
@@ -150,7 +150,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas",
       "curso": "Costos para la Gerencia",
       "teacher": "José Velazco Páucar",
@@ -163,7 +163,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas ",
       "curso": "Formulación, Preparación y Evaluación de Proyectos Nuevos y Proyectos en Marcha",
       "teacher": "Alex Albújar Cruz",
@@ -173,7 +173,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas ",
       "curso": "Fusiones, Adquisiciones y Valorización de Empresas",
       "teacher": "Enrique Cárcamo Cárcamo",
@@ -186,7 +186,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas ",
       "curso": "Análisis de Riesgo Crediticio",
       "teacher": "Arturo García Villacorta",
@@ -197,7 +197,7 @@
     {
       "lineColorCursos": "#051D43",
       "bgColorCursos": "#727E9F",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "Finanzas",
       "curso": "Gestión de créditos y cobranzas",
       "teacher": "Arturo García Villacorta",

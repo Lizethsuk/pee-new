@@ -1,5 +1,5 @@
 
-const finanzas = "../data/FinancePage.json"
+const finanzas = "https://www.esan.edu.pe/mails/prueba-nativa/2021/pee-landing/data/FinancePage.json"
 
 fetch(finanzas)
   .then(function (response) {

@@ -262,7 +262,7 @@ header
 }
 
 .header .navbar-brand {
-  content: url("../../images/header/logo/logo.png");
+  content: url("../images/header/logo/logo.png");
   max-width: 254px;
   width: 100%;
 }

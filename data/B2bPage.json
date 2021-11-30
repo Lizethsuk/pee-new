@@ -20,7 +20,7 @@
     {
       "lineColorCursos": "#284568",
       "bgColorCursos": "#DAE0E5",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "B2B",
       "curso": "Customer Experience en B2B",
       "teacher": "Manuel Ramos Soldevilla",
@@ -30,7 +30,7 @@
     {
       "lineColorCursos": "#284568",
       "bgColorCursos": "#DAE0E5",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "B2B",
       "curso": "Estrategias de Marketing B2B",
       "teacher": "Jorge Merzthal Toranzo",
@@ -41,7 +41,7 @@
     {
       "lineColorCursos": "#284568",
       "bgColorCursos": "#DAE0E5",
-      "img" : "../images/areas/online.png",
+      "img" : "./images/areas/online.png",
       "section": "B2B",
       "curso": "Finanzas en empresas B2B",
       "teacher": "Alfredo Mendiola Cabrera | Carlos Aguirre",

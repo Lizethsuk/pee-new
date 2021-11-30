@@ -1,5 +1,5 @@
 
-const b2b = "../data/B2bPage.json"
+const b2b = "https://www.esan.edu.pe/mails/prueba-nativa/2021/pee-landing/data/B2bPage.json"
 
 fetch(b2b)
   .then(function (response) {

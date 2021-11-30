@@ -1,5 +1,5 @@
 
-const administraccion = "../data/SaludPage.json"
+const administraccion = "https://www.esan.edu.pe/mails/prueba-nativa/2021/pee-landing/data/SaludPage.json"
 
 fetch(administraccion)
   .then(function (response) {

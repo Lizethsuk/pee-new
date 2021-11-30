@@ -19,7 +19,7 @@
     {
       "bgColorCursos": "#5C6F79",
       "lineColorPasos": "#929BA2 ",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "Agile management: aplicando scrum en equipos y otros métodos de agilidad organizacional",
       "teacher": "Arturo Valencia Castro",
@@ -29,7 +29,7 @@
     {
       "bgColorCursos": "#5C6F79",
       "lineColorPasos": "#929BA2 ",
-      "img": "../images/areas/new-online.png",
+      "img": "./images/areas/new-online.png",
       "section": "Tecnologías de la Información",
       "curso": "Arquitectura de soluciones con tecnologías de la información",
       "teacher": "Omar José Osorio Rodriguez",
@@ -39,7 +39,7 @@
     {
       "bgColorCursos": "#5C6F79",
       "lineColorPasos": "#929BA2 ",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "Corporate Performance Management (CPM)",
       "teacher": "Julio Yzaguirre Pérez",
@@ -47,7 +47,7 @@
       "linkCurso": "https://www.esan.edu.pe/pee/areas/tecnologias-de-informacion/corporate-performance-management/"
     },
     {
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "Data Science: La ciencia de los datos",
       "teacher": "Fernando Casafranca",
@@ -57,7 +57,7 @@
     {
       "bgColorCursos": "#5C6F79",
       "lineColorPasos": "#929BA2 ",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "Gestión de la Ciberseguridad",
       "teacher": "Gianncarlo Gómez Morales",
@@ -67,7 +67,7 @@
     {
       "bgColorCursos": "#5C6F79",
       "lineColorPasos": "#929BA2 ",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "Gestión de la innovación en entornos BANI",
       "teacher": "Eddy Morris Abarca",
@@ -77,7 +77,7 @@
     {
       "bgColorCursos": "#5C6F79",
       "lineColorPasos": "#929BA2 ",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "Inteligencia de Negocios (Business Intelligence)",
       "teacher": "Richard Moarri Nohra",
@@ -87,7 +87,7 @@
     {
       "bgColorCursos": "#5C6F79",
       "lineColorPasos": "#929BA2 ",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "La convergencia cloud, analytics & mobility para las empresas",
       "teacher": "Charles Caillaux",
@@ -97,7 +97,7 @@
     {
       "bgColorCursos": "#5C6F79",
       "lineColorPasos": "#929BA2 ",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "Transformación Digital en las Organizaciones",
       "teacher": "Eddy Morris",
@@ -107,7 +107,7 @@
     {
       "bgColorCursos": "#5C6F79",
       "lineColorPasos": "#929BA2 ",
-      "img": "../images/areas/online.png",
+      "img": "./images/areas/online.png",
       "section": "Tecnologías de la Información",
       "curso": "Business Intelligence",
       "teacher": "Richard Moarri Nohra",
