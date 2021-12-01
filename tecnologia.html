@@ -238,6 +238,15 @@
                           personales</a>.
                       </label>
                     </div>
+                    <div class="form-check">
+                      <input type="checkbox" v-model="payload.acepta_publicidad_y_encuestas"  
+                        id="acepta_publicidad_y_encuestas" class="form-check-input"> <label
+                        for="gridCheck" class="form-check-label">
+                        Autorizo a UESAN a utilizar mis datos para el envio de publicidad sobre los
+                        servicios educativos y actividades que brinda, así como la realización de
+                        encuestas de satisfacción al cliente.
+                      </label>
+                    </div>
 
                   </fieldset>
                   <fieldset id="input-group-12" class="form-group all-btn">
@@ -283,9 +292,9 @@
             <div class="vl"></div>
           </div>
           <div class="col-md-4 col-12 align-self-center">
-            <div class="button-content"><button type="button"
+            <div class="button-content"><a href="solicita-informacion/" type="button"
                 class=" button-admi btn button-nav btn-secondary rounded-0">
-                Solicita información</button>
+                Solicita información</a>
             </div>
           </div>
         </div>
@@ -498,6 +507,39 @@
       </div>
     </div>
     <!-- ts footer area end-->
+    <div class="modal fade" id="politica-de-proteccion-de-datos" tabindex="-1" role="dialog"
+    aria-labelledby="titulo-de-proteccion-de-datos" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <h4 class="modal-title" id="titulo-de-proteccion-de-datos">Política de Protección de Datos Personales
+          </h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            De conformidad con la Ley N° 29733 y su Reglamento, doy mi consentimiento libre, expreso, informado e inequívoco, mediante su firma o 
+            cualquier otra forma de aceptación expresa automatizada, al tratamiento de datos personales que facilite a la Universidad ESAN (en 
+            adelante, UESAN) con RUC N° 20136507720, por cualquier medio físico o electrónico, de acuerdo a las finalidades descritas a continuación: i) gestión del proceso de inscripción; ii) atención de consultas y reclamos; iii) mantenimiento de un registro de inscritos; iv) registro de ingreso al campus universitario y otros establecimientos de la UESAN; v) gestión del cobro de derechos académicos; vi) publicación de los resultados de su inscripción; vii) expedición de certificaciones; viii) remisión de los resultados de su participación, entre otros datos conexos, a las instituciones públicas o privadas involucradas directamente con la actividad respectiva; ix) invitación a eventos académicos, culturales, deportivos y similares organizados por la UESAN y sus respectivas unidades y centros de enseñanza; x) realización de encuestas; y, xi) en general, para el cumplimiento de cualquier finalidad conexa con su participación en las actividades antes mencionadas.
+          </p>
+          <p>
+            Los datos personales que nos proporcione se mantendrán en el banco de datos personales ‘’PROSPECTO, POSTULANTES, ALUMNOS Y EXALUMNOS N° 06597 Y USUARIOS DE LA PAGINA WEB’’ con código N° 15997, ubicada en Jr. Alonso de Molina 1652, Monterrico Chico, Santiago de Surco, Lima-Perú. Los datos personales se conservarán por el plazo de 10 años, 
+            o hasta que el titular de los mismos revoque su consentimiento.
+          </p>
+          <p>ESAN declara que no realiza transferencia nacional e internacional de datos, sin embargo, cualquier modificación o actualización sobre este punto podrá ser 
+            validado en nuestro Política de Privacidad que podrá ser encontrada en nuestra página web oficial <a href="https://www.esan.edu.pe/" target="_blank">https://www.esan.edu.pe/</a> En caso el usuario desee ejercer 
+            sus derechos acceso, cancelación, oposición o revocatoria de consentimiento o modificación o cualquier otra, 
+            lo podrá hacer contactándose al correo <a href="mailto:srubio@esan.edu.pe">srubio@esan.edu.pe</a>  o a la siguiente dirección Jirón Alonso de Molina N° 1652, Santiago de Surco, Lima –Perú</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-close  btn" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn " id="aceptar-politica-de-proteccion-de-datos">Acepto esta
+            política</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- Javascript Files
             ================================================== -->
@@ -560,6 +602,7 @@
             cargo: "",
             especialidad_o_concentracion: "Tecnologías de la Información",
             acepta_politica_de_privacidad: 0,
+            acepta_publicidad_y_encuestas: 0,
             ciudad: "LIMA", // debe inicializarse, aquí; en javascript después; o, en última instancia, presentar opciones en el HTML para que el usuario elija
             programa: "PEE", // igual que *ciudad*
             url_del_formulario: "", // se carga automáticamente

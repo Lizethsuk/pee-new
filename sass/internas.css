@@ -442,6 +442,23 @@ header end
 header
 
 ======*/
+.modal h4 {
+  color: #4C4C4C;
+  text-align: center;
+}
+
+.modal p {
+  color: #4C4C4C;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 200;
+}
+
+.modal p a {
+  text-decoration: underline;
+  color: blue;
+}
+
 .col-title {
   padding-top: 320px;
 }
@@ -618,12 +635,6 @@ header
   display: none;
 }
 
-.pasos-areas input[type=radio], .pasos-areas input[type=checkbox] {
-  margin: 4px 3px 3px !important;
-  margin-top: 1px \9  !important;
-  line-height: normal !important;
-}
-
 .pasos-areas .text-condiciones {
   padding-left: 10px;
 }
@@ -696,8 +707,12 @@ header
   font-family: 'Raleway-Regular';
 }
 
-.pasos-areas input, .pasos-areas select, .pasos-areas textarea, .pasos-areas .conditions {
+.pasos-areas input, .pasos-areas select, .pasos-areas textarea {
   margin-left: 10px;
+}
+
+.pasos-areas .form-check-input {
+  margin-left: -1.25rem;
 }
 
 .pasos-areas .form-content {
@@ -807,12 +822,6 @@ header
 
 .pasos-areas-admi .form-responsive {
   display: none;
-}
-
-.pasos-areas-admi input[type=radio], .pasos-areas-admi input[type=checkbox] {
-  margin: 4px 3px 3px !important;
-  margin-top: 1px \9  !important;
-  line-height: normal !important;
 }
 
 .pasos-areas-admi .text-condiciones {
@@ -1334,6 +1343,15 @@ header
   }
   .pasos-areas-admi {
     padding: 50px 35px;
+  }
+}
+
+@media (max-width: 325px) {
+  .jumbotron.image .col-title {
+    padding-top: 170px;
+  }
+  .jumbotron.image .col-title .title {
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=internas.css.map */

@@ -486,6 +486,23 @@ header end
   font-family: 'gt-pressura-bold';
 }
 
+.modal h4 {
+  color: #4C4C4C;
+  text-align: center;
+}
+
+.modal p {
+  color: #4C4C4C;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 200;
+}
+
+.modal p a {
+  text-decoration: underline;
+  color: blue;
+}
+
 /*==============
       hello
  ============*/
@@ -660,6 +677,12 @@ header end
   border: 1.8px solid white;
   width: 100%;
   color: white;
+}
+
+.hello .container-home .col-form .form-class label {
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 200;
 }
 
 .hello .list-title li {

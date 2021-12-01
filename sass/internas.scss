@@ -3,6 +3,22 @@
 header
 
 ======*/
+.modal{
+  h4{
+    color: #4C4C4C;
+    text-align: center;
+  }
+  p{
+    color: #4C4C4C;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 200;
+    a{
+      text-decoration: underline;
+      color: blue;
+    }
+  }
+}
 
 .col-title {
     padding-top: 320px;
@@ -169,11 +185,7 @@ header
     .form-responsive {
       display: none;
     }
-    input[type=radio], input[type=checkbox] {
-      margin: 4px 3px 3px !important;
-      margin-top: 1px \9 !important;
-      line-height: normal !important;
-    }
+  
     
     .text-condiciones {
       padding-left: 10px;
@@ -226,8 +238,11 @@ header
       // color blue !important
     }
     
-    input, select, textarea, .conditions {
+    input, select, textarea, {
       margin-left: 10px;
+    }
+    .form-check-input {
+      margin-left: -1.25rem;
     }
     
     .form-content {
@@ -336,12 +351,7 @@ header
     .form-responsive {
       display: none;
     }
-    input[type=radio], input[type=checkbox] {
-      margin: 4px 3px 3px !important;
-      margin-top: 1px \9 !important;
-      line-height: normal !important;
-    }
-    
+   
     .text-condiciones {
       padding-left: 10px;
     }
@@ -831,5 +841,18 @@ p{
   }
   .pasos-areas-admi{
     padding: 50px 35px;
+  }
+}
+@media (max-width: 325px) {
+  .jumbotron{
+    &.image{
+
+      .col-title{
+        padding-top: 170px;
+        .title{
+          font-size: 30px;
+        }
+      }
+    }
   }
 }

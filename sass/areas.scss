@@ -9,7 +9,22 @@
   }
 
 }
-
+.modal{
+  h4{
+    color: #4C4C4C;
+    text-align: center;
+  }
+  p{
+    color: #4C4C4C;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 200;
+    a{
+      text-decoration: underline;
+      color: blue;
+    }
+  }
+}
 
 .body-color {
   background: white;
@@ -219,7 +234,7 @@ a {
     height: 71px;
     font-size: 29.82px;
     font-weight: 700;
-    line-height: 37px;
+    line-height: 52px;
     text-transform:inherit;
   }
   .btn-secondary{
@@ -236,6 +251,7 @@ a {
 
   font-size: 32px;
   }
+  
   .section-content{
     display: flex;
     flex-direction: row;
@@ -309,7 +325,7 @@ a {
     align-items: center;
   }
   .form-g{
-    padding: 25px 0;
+    padding: 20px 0;
     background-color: #262b2d;
     max-width: 390px;
 
@@ -318,7 +334,12 @@ a {
     }
     select{
       width: 100%;
-      padding: .375rem .75rem;
+      padding: .365rem .75rem;
+    }
+    label{
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 200;
     }
   }
   
